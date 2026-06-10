@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local AI assistant instructions
+CLAUDE.local.md
+
+# Local data stores (vector + structured)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs / OS noise
+*.log
+.DS_Store
+EOF
