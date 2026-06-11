@@ -19,10 +19,10 @@ already-built behaviour.
 
 The service exposes one endpoint:
 
-  POST /ask  →  { question: string }
-            →  { answer: string, sources: Source[], route: Route, tokensUsed: number }
+POST /ask → { question: string }
+→ { answer: string, sources: Source[], route: Route, tokensUsed: number }
 
-  Route = "semantic" | "structured" | "hybrid"
+Route = "semantic" | "structured" | "hybrid"
 
 This shape is the integration contract with the tube-history frontend. Changing
 the request/response shape is a breaking change — flag it explicitly, never
