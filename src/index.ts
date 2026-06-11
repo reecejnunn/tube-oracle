@@ -1,1 +1,1 @@
-   console.log("hello tube-oracle"); 
+console.log("hello tube-oracle");
