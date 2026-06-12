@@ -5,6 +5,7 @@ import eslintConfigPrettier from "eslint-config-prettier";
 
 export default tseslint.config(
   { ignores: ["dist/**"] },
+
   js.configs.recommended,
 
   tseslint.configs.recommendedTypeChecked,
@@ -18,6 +19,10 @@ export default tseslint.config(
     },
     rules: {
       // overrides here
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { argsIgnorePattern: "^_" },
+      ],
     },
   },
   {
