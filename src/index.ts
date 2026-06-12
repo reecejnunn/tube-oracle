@@ -55,6 +55,17 @@ type Line = {
   establishedDate: string;
 };
 
+type LineDetail = {
+  history: string;
+  funFacts: string[];
+  keyEngineers?: string[];
+  originalNames?: OriginalName[];
+};
+
+type LineDetails = {
+  [lineId: string]: LineDetail;
+};
+
 export function ask(_request: AskRequest): AskResponse {
   return {
     answer: "Not yet implemented",
@@ -203,4 +214,49 @@ export function parseLines(raw: unknown): Line[] {
   if (!Array.isArray(raw)) throw new Error("Invalid line data");
 
   return raw.map(parseLine);
+}
+
+export function parseLineDetail(raw: unknown): LineDetail {
+  if (typeof raw !== "object" || raw === null)
+    throw new Error("Invalid line detail data");
+
+  const obj = raw as Record<string, unknown>;
+
+  if (typeof obj.history !== "string") throw new Error("Invalid line history");
+  if (
+    !Array.isArray(obj.funFacts) ||
+    !obj.funFacts.every((f) => typeof f === "string")
+  )
+    throw new Error("Invalid line fun facts");
+  if (
+    obj.keyEngineers !== undefined &&
+    (!Array.isArray(obj.keyEngineers) ||
+      !obj.keyEngineers.every((e) => typeof e === "string"))
+  )
+    throw new Error("Invalid line key engineers");
+  if (obj.originalNames !== undefined && !Array.isArray(obj.originalNames))
+    throw new Error("Invalid line original names");
+
+  return {
+    history: obj.history,
+    funFacts: obj.funFacts,
+    ...(obj.keyEngineers !== undefined && { keyEngineers: obj.keyEngineers }),
+    ...(obj.originalNames !== undefined && {
+      originalNames: obj.originalNames.map(parseOriginalName),
+    }),
+  };
+}
+
+export function parseLineDetails(raw: unknown): LineDetails {
+  if (typeof raw !== "object" || raw === null || Array.isArray(raw))
+    throw new Error("Invalid line details data");
+
+  const obj = raw as Record<string, unknown>;
+  const details: LineDetails = {};
+
+  for (const [key, value] of Object.entries(obj)) {
+    details[key] = parseLineDetail(value);
+  }
+
+  return details;
 }
