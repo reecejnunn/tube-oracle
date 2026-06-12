@@ -47,6 +47,14 @@ type OriginalName = {
   years: string;
 };
 
+type Line = {
+  id: string;
+  name: string;
+  shortName: string;
+  stations: string[];
+  establishedDate: string;
+};
+
 export function ask(_request: AskRequest): AskResponse {
   return {
     answer: "Not yet implemented",
@@ -162,4 +170,37 @@ export function parseStationDetails(raw: unknown): StationDetails {
   }
 
   return details;
+}
+
+export function parseLine(raw: unknown): Line {
+  if (typeof raw !== "object" || raw === null)
+    throw new Error("Invalid line data");
+
+  const obj = raw as Record<string, unknown>;
+
+  if (typeof obj.id !== "string") throw new Error("Invalid line id");
+  if (typeof obj.name !== "string") throw new Error("Invalid line name");
+  if (typeof obj.shortName !== "string")
+    throw new Error("Invalid line shortName");
+  if (
+    !Array.isArray(obj.stations) ||
+    !obj.stations.every((s) => typeof s === "string")
+  )
+    throw new Error("Invalid line stations");
+  if (typeof obj.establishedDate !== "string")
+    throw new Error("Invalid line establishedDate");
+
+  return {
+    id: obj.id,
+    name: obj.name,
+    shortName: obj.shortName,
+    stations: obj.stations,
+    establishedDate: obj.establishedDate,
+  };
+}
+
+export function parseLines(raw: unknown): Line[] {
+  if (!Array.isArray(raw)) throw new Error("Invalid line data");
+
+  return raw.map(parseLine);
 }
