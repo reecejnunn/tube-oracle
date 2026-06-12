@@ -29,6 +29,24 @@ type StationLine = {
   validTo?: number;
 };
 
+type StationDetail = {
+  zone: number;
+  history: string;
+  architect?: string;
+  funFacts?: string[];
+  grade?: string;
+  originalNames?: OriginalName[];
+};
+
+type StationDetails = {
+  [stationId: string]: StationDetail;
+};
+
+type OriginalName = {
+  name: string;
+  years: string;
+};
+
 export function ask(_request: AskRequest): AskResponse {
   return {
     answer: "Not yet implemented",
@@ -80,4 +98,68 @@ export function parseStation(raw: unknown): Station {
     lines: obj.lines.map(parseStationLine),
     ...(obj.originalName !== undefined && { originalName: obj.originalName }),
   };
+}
+
+export function parseOriginalName(raw: unknown): OriginalName {
+  if (typeof raw !== "object" || raw === null)
+    throw new Error("Invalid original name data");
+
+  const obj = raw as Record<string, unknown>;
+
+  if (typeof obj.name !== "string") throw new Error("Invalid original name");
+  if (typeof obj.years !== "string")
+    throw new Error("Invalid original name years");
+
+  return {
+    name: obj.name,
+    years: obj.years,
+  };
+}
+
+export function parseStationDetail(raw: unknown): StationDetail {
+  if (typeof raw !== "object" || raw === null)
+    throw new Error("Invalid station detail data");
+
+  const obj = raw as Record<string, unknown>;
+
+  if (typeof obj.zone !== "number") throw new Error("Invalid station zone");
+  if (typeof obj.history !== "string")
+    throw new Error("Invalid station history");
+  if (obj.architect !== undefined && typeof obj.architect !== "string")
+    throw new Error("Invalid station architect");
+  if (
+    obj.funFacts !== undefined &&
+    (!Array.isArray(obj.funFacts) ||
+      !obj.funFacts.every((f) => typeof f === "string"))
+  )
+    throw new Error("Invalid station fun facts");
+  if (obj.grade !== undefined && typeof obj.grade !== "string")
+    throw new Error("Invalid station grade");
+  if (obj.originalNames !== undefined && !Array.isArray(obj.originalNames))
+    throw new Error("Invalid station original names");
+
+  return {
+    zone: obj.zone,
+    history: obj.history,
+    ...(obj.architect !== undefined && { architect: obj.architect }),
+    ...(obj.funFacts !== undefined && { funFacts: obj.funFacts }),
+    ...(obj.grade !== undefined && { grade: obj.grade }),
+    ...(obj.originalNames !== undefined && {
+      originalNames: obj.originalNames.map(parseOriginalName),
+    }),
+  };
+}
+
+export function parseStationDetails(raw: unknown): StationDetails {
+  if (typeof raw !== "object" || raw === null || Array.isArray(raw))
+    throw new Error("Invalid station details data");
+
+  const obj = raw as Record<string, unknown>;
+  const details: StationDetails = {};
+
+  for (const [key, value] of Object.entries(obj)) {
+    details[key] = parseStationDetail(value);
+  }
+
+  return details;
 }
