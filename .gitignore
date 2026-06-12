@@ -20,4 +20,6 @@ CLAUDE.local.md
 # Logs / OS noise
 *.log
 .DS_Store
-EOF
+
+# Local scratch / smoke harnesses (throwaway, not committed)
+scripts/smoke-*.ts
