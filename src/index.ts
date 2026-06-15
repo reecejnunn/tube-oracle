@@ -112,12 +112,24 @@ function parseStation(raw: unknown): Station {
   if (obj.originalName !== undefined && typeof obj.originalName !== "string")
     throw new Error("Invalid station originalName");
 
+  const id = obj.id;
+
   return {
-    id: obj.id,
+    id: id,
     name: obj.name,
     date: obj.date,
     closedDate: obj.closedDate,
-    lines: obj.lines.map(parseStationLine),
+    lines: obj.lines.map((line, i) => {
+      try {
+        return parseStationLine(line);
+      } catch (error) {
+        const errorMessage =
+          error instanceof Error ? error.message : String(error);
+        throw new Error(`Station "${id}" lines[${i}]: ${errorMessage}`, {
+          cause: error,
+        });
+      }
+    }),
     ...(obj.originalName !== undefined && { originalName: obj.originalName }),
   };
 }
