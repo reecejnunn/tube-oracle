@@ -1,3 +1,11 @@
+// Validation doors: each takes `unknown` and returns a typed shape, or throws.
+// Three layers:
+//   file doors   - parseStations, parseStationDetails, parseLines, parseLineDetails:
+//                  prove the outer file shape (array | object-map), map the record door over it
+//   record doors - parseStation, parseStationDetail, parseLine, parseLineDetail: one record
+//   primitives   - parseStationLine, parseOriginalName: small shapes shared across entities
+// Only the file doors are exported - they are the entry points the loader calls.
+
 import type {
   Station,
   StationLine,
@@ -9,24 +17,49 @@ import type {
   LineDetails,
 } from "./types.js";
 
-function parseStationLine(raw: unknown): StationLine {
-  if (typeof raw !== "object" || raw === null)
-    throw new Error("Invalid station line data");
+/*********************** FILE DOORS ***********************/
+
+export function parseStations(raw: unknown): Station[] {
+  if (!Array.isArray(raw)) throw new Error("Invalid station data");
+
+  return raw.map(parseStation);
+}
+
+export function parseStationDetails(raw: unknown): StationDetails {
+  if (typeof raw !== "object" || raw === null || Array.isArray(raw))
+    throw new Error("Invalid station details data");
 
   const obj = raw as Record<string, unknown>;
+  const details: StationDetails = {};
 
-  if (typeof obj.line !== "string") throw new Error("Invalid line data");
-  if (typeof obj.validFrom !== "number")
-    throw new Error(`Invalid validFrom: got ${typeof obj.validFrom}`);
-  if (obj.validTo !== undefined && typeof obj.validTo !== "number")
-    throw new Error(`Invalid validTo: got ${typeof obj.validTo}`);
+  for (const [key, value] of Object.entries(obj)) {
+    details[key] = parseStationDetail(value);
+  }
 
-  return {
-    line: obj.line,
-    validFrom: obj.validFrom,
-    ...(obj.validTo !== undefined && { validTo: obj.validTo }),
-  };
+  return details;
 }
+
+export function parseLines(raw: unknown): Line[] {
+  if (!Array.isArray(raw)) throw new Error("Invalid line data");
+
+  return raw.map(parseLine);
+}
+
+export function parseLineDetails(raw: unknown): LineDetails {
+  if (typeof raw !== "object" || raw === null || Array.isArray(raw))
+    throw new Error("Invalid line details data");
+
+  const obj = raw as Record<string, unknown>;
+  const details: LineDetails = {};
+
+  for (const [key, value] of Object.entries(obj)) {
+    details[key] = parseLineDetail(value);
+  }
+
+  return details;
+}
+
+/*********************** RECORD DOORS ***********************/
 
 function parseStation(raw: unknown): Station {
   if (typeof raw !== "object" || raw === null)
@@ -65,28 +98,6 @@ function parseStation(raw: unknown): Station {
   };
 }
 
-export function parseStations(raw: unknown): Station[] {
-  if (!Array.isArray(raw)) throw new Error("Invalid station data");
-
-  return raw.map(parseStation);
-}
-
-function parseOriginalName(raw: unknown): OriginalName {
-  if (typeof raw !== "object" || raw === null)
-    throw new Error("Invalid original name data");
-
-  const obj = raw as Record<string, unknown>;
-
-  if (typeof obj.name !== "string") throw new Error("Invalid original name");
-  if (typeof obj.years !== "string")
-    throw new Error("Invalid original name years");
-
-  return {
-    name: obj.name,
-    years: obj.years,
-  };
-}
-
 function parseStationDetail(raw: unknown): StationDetail {
   if (typeof raw !== "object" || raw === null)
     throw new Error("Invalid station detail data");
@@ -121,20 +132,6 @@ function parseStationDetail(raw: unknown): StationDetail {
   };
 }
 
-export function parseStationDetails(raw: unknown): StationDetails {
-  if (typeof raw !== "object" || raw === null || Array.isArray(raw))
-    throw new Error("Invalid station details data");
-
-  const obj = raw as Record<string, unknown>;
-  const details: StationDetails = {};
-
-  for (const [key, value] of Object.entries(obj)) {
-    details[key] = parseStationDetail(value);
-  }
-
-  return details;
-}
-
 function parseLine(raw: unknown): Line {
   if (typeof raw !== "object" || raw === null)
     throw new Error("Invalid line data");
@@ -160,12 +157,6 @@ function parseLine(raw: unknown): Line {
     stations: obj.stations,
     establishedDate: obj.establishedDate,
   };
-}
-
-export function parseLines(raw: unknown): Line[] {
-  if (!Array.isArray(raw)) throw new Error("Invalid line data");
-
-  return raw.map(parseLine);
 }
 
 function parseLineDetail(raw: unknown): LineDetail {
@@ -199,16 +190,39 @@ function parseLineDetail(raw: unknown): LineDetail {
   };
 }
 
-export function parseLineDetails(raw: unknown): LineDetails {
-  if (typeof raw !== "object" || raw === null || Array.isArray(raw))
-    throw new Error("Invalid line details data");
+/*********************** PRIMITIVES ***********************/
+
+function parseStationLine(raw: unknown): StationLine {
+  if (typeof raw !== "object" || raw === null)
+    throw new Error("Invalid station line data");
 
   const obj = raw as Record<string, unknown>;
-  const details: LineDetails = {};
 
-  for (const [key, value] of Object.entries(obj)) {
-    details[key] = parseLineDetail(value);
-  }
+  if (typeof obj.line !== "string") throw new Error("Invalid line data");
+  if (typeof obj.validFrom !== "number")
+    throw new Error(`Invalid validFrom: got ${typeof obj.validFrom}`);
+  if (obj.validTo !== undefined && typeof obj.validTo !== "number")
+    throw new Error(`Invalid validTo: got ${typeof obj.validTo}`);
 
-  return details;
+  return {
+    line: obj.line,
+    validFrom: obj.validFrom,
+    ...(obj.validTo !== undefined && { validTo: obj.validTo }),
+  };
+}
+
+function parseOriginalName(raw: unknown): OriginalName {
+  if (typeof raw !== "object" || raw === null)
+    throw new Error("Invalid original name data");
+
+  const obj = raw as Record<string, unknown>;
+
+  if (typeof obj.name !== "string") throw new Error("Invalid original name");
+  if (typeof obj.years !== "string")
+    throw new Error("Invalid original name years");
+
+  return {
+    name: obj.name,
+    years: obj.years,
+  };
 }
