@@ -1,72 +1,31 @@
 console.log("hello tube-oracle");
 
 import { readFileSync } from "node:fs";
+import type {
+  Line,
+  LineDetail,
+  LineDetails,
+  OriginalName,
+  Station,
+  StationDetail,
+  StationDetails,
+  StationLine,
+} from "./corpus/types.js";
+
 loadCorpus();
 
-type Route = "semantic" | "structured" | "hybrid";
-type Source = { stationId: string; stationName: string; lineId: string };
+export type Route = "semantic" | "structured" | "hybrid";
+export type Source = { stationId: string; stationName: string; lineId: string };
 
-type AskRequest = {
+export type AskRequest = {
   question: string;
 };
 
-type AskResponse = {
+export type AskResponse = {
   answer: string;
   sources: Source[];
   route: Route;
   tokensUsed: number;
-};
-
-type Station = {
-  id: string;
-  name: string;
-  date: string;
-  closedDate: string | null;
-  lines: StationLine[];
-  originalName?: string;
-};
-
-type StationLine = {
-  line: string;
-  validFrom: number;
-  validTo?: number;
-};
-
-type StationDetail = {
-  zone: number;
-  history: string;
-  architect?: string;
-  funFacts?: string[];
-  grade?: string;
-  originalNames?: OriginalName[];
-};
-
-type StationDetails = {
-  [stationId: string]: StationDetail;
-};
-
-type OriginalName = {
-  name: string;
-  years: string;
-};
-
-type Line = {
-  id: string;
-  name: string;
-  shortName: string;
-  stations: string[];
-  establishedDate: string;
-};
-
-type LineDetail = {
-  history: string;
-  funFacts: string[];
-  keyEngineers?: string[];
-  originalNames?: OriginalName[];
-};
-
-type LineDetails = {
-  [lineId: string]: LineDetail;
 };
 
 export function ask(_request: AskRequest): AskResponse {
