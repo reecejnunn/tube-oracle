@@ -1,5 +1,8 @@
 console.log("hello tube-oracle");
 
+import { readFileSync } from "node:fs";
+loadCorpus();
+
 type Route = "semantic" | "structured" | "hybrid";
 type Source = { stationId: string; stationName: string; lineId: string };
 
@@ -75,7 +78,7 @@ export function ask(_request: AskRequest): AskResponse {
   };
 }
 
-export function parseStationLine(raw: unknown): StationLine {
+function parseStationLine(raw: unknown): StationLine {
   if (typeof raw !== "object" || raw === null)
     throw new Error("Invalid station line data");
 
@@ -94,7 +97,7 @@ export function parseStationLine(raw: unknown): StationLine {
   };
 }
 
-export function parseStation(raw: unknown): Station {
+function parseStation(raw: unknown): Station {
   if (typeof raw !== "object" || raw === null)
     throw new Error("Invalid station data");
 
@@ -119,7 +122,13 @@ export function parseStation(raw: unknown): Station {
   };
 }
 
-export function parseOriginalName(raw: unknown): OriginalName {
+export function parseStations(raw: unknown): Station[] {
+  if (!Array.isArray(raw)) throw new Error("Invalid station data");
+
+  return raw.map(parseStation);
+}
+
+function parseOriginalName(raw: unknown): OriginalName {
   if (typeof raw !== "object" || raw === null)
     throw new Error("Invalid original name data");
 
@@ -135,7 +144,7 @@ export function parseOriginalName(raw: unknown): OriginalName {
   };
 }
 
-export function parseStationDetail(raw: unknown): StationDetail {
+function parseStationDetail(raw: unknown): StationDetail {
   if (typeof raw !== "object" || raw === null)
     throw new Error("Invalid station detail data");
 
@@ -183,7 +192,7 @@ export function parseStationDetails(raw: unknown): StationDetails {
   return details;
 }
 
-export function parseLine(raw: unknown): Line {
+function parseLine(raw: unknown): Line {
   if (typeof raw !== "object" || raw === null)
     throw new Error("Invalid line data");
 
@@ -216,7 +225,7 @@ export function parseLines(raw: unknown): Line[] {
   return raw.map(parseLine);
 }
 
-export function parseLineDetail(raw: unknown): LineDetail {
+function parseLineDetail(raw: unknown): LineDetail {
   if (typeof raw !== "object" || raw === null)
     throw new Error("Invalid line detail data");
 
@@ -259,4 +268,28 @@ export function parseLineDetails(raw: unknown): LineDetails {
   }
 
   return details;
+}
+
+function loadJson(relativePath: string): unknown {
+  const text = readFileSync(new URL(relativePath, import.meta.url), "utf-8");
+  const parsed: unknown = JSON.parse(text); // pin to unknown to avoid TS inferring any type
+  return parsed;
+}
+
+export function loadCorpus() {
+  const stations = parseStations(loadJson("../data/stations-core.json"));
+  const stationDetails = parseStationDetails(
+    loadJson("../data/station-details.json"),
+  );
+  const lines = parseLines(loadJson("../data/lines-core.json"));
+  const lineDetails = parseLineDetails(loadJson("../data/line-details.json"));
+
+  console.log(
+    `Loaded corpus: ${stations.length} stations, ` +
+      `${Object.keys(stationDetails).length} station details, ` +
+      `${lines.length} lines, ` +
+      `${Object.keys(lineDetails).length} line details`,
+  );
+
+  return { stations, stationDetails, lines, lineDetails };
 }
