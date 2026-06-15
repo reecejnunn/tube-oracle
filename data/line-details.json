@@ -1,0 +1,170 @@
+{
+  "metropolitan": {
+    "originalNames": [
+      {
+        "years": "1863-1933",
+        "name": "Metropolitan Railway"
+      }
+    ],
+    "imageUrl": "Constructing_the_Metropolitan_Railway.jpg",
+    "keyEngineers": ["John Fowler"],
+    "history": "Opened on 10 January 1863 between Paddington and Farringdon, the Metropolitan was the world's first underground railway. Its creation was driven by Charles Pearson, the City of London's Solicitor, who spent two decades campaigning for a railway to relieve London's street congestion - though he died six months before the opening. Engineered by John Fowler using cut-and-cover construction beneath existing streets, the original trains were steam-hauled, filling the tunnels with smoke that passengers endured through partially opened carriage windows. The line expanded rapidly northward and westward, eventually reaching Verney Junction in Buckinghamshire. The outer sections were handed to the mainline railways from 1936 and the Metropolitan contracted to roughly its current form.",
+    "funFacts": [
+      "At its greatest extent the Metropolitan reached Verney Junction in Buckinghamshire - 50 miles from Baker Street. The chairman promoted the villages and fields along the line as 'Metroland', selling suburban living to Londoners and directly shaping the character of a string of north-west London suburbs that still bear its influence today.",
+      "Steam trains operated on the original Metropolitan from 1863 until electrification in 1905. To manage the smoke, the company installed ventilation shafts along the route and issued instructions advising passengers to keep their carriage windows slightly open - creating a cross-draft that drew smoke through the carriages rather than settling on waiting passengers."
+    ]
+  },
+  "district": {
+    "originalNames": [
+      {
+        "name": "Metropolitan District Railway",
+        "years": "1868-1902"
+      },
+      {
+        "name": "District Railway",
+        "years": "1902-1933"
+      }
+    ],
+    "imageUrl": "Power-operated signal frame, Ealing Common, Metropolitan & District Railway (CJ Allen, Steel Highway, 1928).jpg",
+    "keyEngineers": ["John Fowler"],
+    "history": "Opened on 24 December 1868 as the Metropolitan District Railway, running along Joseph Bazalgette's newly completed Thames Embankment from South Kensington to Westminster. Extended eastward to Mansion House in 1871 and westward to Richmond, Wimbledon, and Ealing over the following decades. The District and Metropolitan railways were bitter commercial rivals throughout the Victorian period - a dispute that delayed the completion of the Inner Circle for years as each company refused to cooperate with the other. Both were absorbed into the London Passenger Transport Board in 1933. The District retains more surface-level and open-air running than any other line serving the central zone.",
+    "funFacts": [
+      "The Victorian rivalry between the District and Metropolitan companies was so entrenched that it required an Act of Parliament and arbitration by the Board of Trade in 1875 to force them to agree on joint operations through the central section. The two companies' directors reportedly refused to be in the same room, conducting negotiations through intermediaries.",
+      "The District is the only Underground line to cross the Thames on a bridge - and it does so twice. The Wimbledon branch crosses Fulham Railway Bridge between Putney Bridge and East Putney, and the Richmond branch crosses Kew Railway Bridge between Gunnersbury and Kew Gardens. Every other Underground river crossing is in tunnel.",
+      "Between 1910 and 1939 the District operated through services to Southend-on-Sea using London Tilbury and Southend Railway tracks east of Barking. The Sunday seaside specials turned summer weekends into one of the District's busiest periods - holidaymakers boarded at Mansion House and disembarked at Southend Central without changing trains."
+    ]
+  },
+  "circle": {
+    "imageUrl": "Construction_of_the_Metropolitan_District_Railway_at_Westminster.png",
+    "history": "The Inner Circle was completed on 6 October 1884 when Metropolitan and District trains finally joined at Mark Lane (now Tower Hill), creating a continuous loop through central London. For over a century the Circle line was not a standalone operation but a service pattern run jointly on shared infrastructure by Metropolitan and District rolling stock. It was given its own identity on the Tube map in 1949. In December 2009 services were rerouted to run as a spiral rather than a closed loop: instead of circling indefinitely, trains now start and terminate at Hammersmith, running once around the circle via Paddington along the existing Hammersmith & City tracks. No new infrastructure was built - the change was operational, ending over a century of continuous-loop running.",
+    "funFacts": [
+      "Despite its name, the Circle line was never operated as a continuous loop with trains circling non-stop. All services always had a start and end point on the circuit. The 2009 extension to Hammersmith finally gave the line a true terminal away from the loop, making the 'circle' part of the name more misleading than ever.",
+      "The 'Inner Circle' name dates from a period when an 'Outer Circle' service also ran on a wider loop using North London and West London Railway tracks, between 1872 and 1908. The Outer Circle ran from Broad Street via Willesden Junction, Earl's Court and the Thames to Mansion House - a journey that took the best part of an hour. The Inner survived to become today's Circle line; the Outer faded out before the First World War, though its tracks still carry London Overground services."
+    ]
+  },
+  "central": {
+    "originalNames": [
+      {
+        "name": "Central London Railway",
+        "years": "1900-1937"
+      }
+    ],
+    "imageUrl": "Central_London_Railway_locomotive.png",
+    "keyEngineers": [
+      "Sir Benjamin Baker",
+      "James Henry Greathead",
+      "Basil Mott"
+    ],
+    "history": "Opened on 30 July 1900 as the Central London Railway from Shepherd's Bush to Bank, a flat fare of twopence regardless of distance made it immediately popular - passengers called it the 'Twopenny Tube'. The line expanded west to Wood Lane for the 1908 Franco-British Exhibition and was extended further under a programme planned in 1935 but delayed by the war, completing in stages between 1946 and 1949. The eastern extension converted partially built tunnels that had been used as aircraft factory space during the war. The Central line now runs 74 kilometres from Epping to West Ruislip - one of the longest end-to-end routes on the Underground.",
+    "funFacts": [
+      "The flat 2d fare policy when the line opened in 1900 was so popular that it overwhelmed the original rolling stock within two years - the seven original electric locomotives wore out and had to be replaced far sooner than expected. The policy was eventually abandoned as the line extended outward and distance-based fares became unavoidable.",
+      "The Central line once reached further east than Epping. A single-track rural branch ran six and a half miles on to Ongar in Essex from 1957 until closure in 1994, the victim of declining passenger numbers in farmland country. The branch survives as the Epping Ongar Railway, a preserved heritage line running steam and diesel services on the former tube tracks."
+    ]
+  },
+  "bakerloo": {
+    "originalNames": [
+      {
+        "name": "Baker Street and Waterloo Railway",
+        "years": "1906-1933"
+      }
+    ],
+    "imageUrl": "Baker Street Waterloo Railway platform March 1906.png",
+    "keyEngineers": ["Sir Benjamin Baker", "Basil Mott"],
+    "history": "Opened on 10 March 1906 as the Baker Street and Waterloo Railway, the line was promptly nicknamed the 'Bakerloo' by the Evening News - an abbreviation the operating company resisted for years before accepting it officially. Extended northward in stages over mainline tracks to Watford in 1917, the Watford service was withdrawn in 1982 - cut back initially to Stonebridge Park before Harrow & Wealdstone became the regular northern terminus in 1984. The southern terminus at Elephant & Castle has been unchanged since 1906. A proposed extension to Lewisham via Old Kent Road has been under discussion for several decades, with the route safeguarded but no funding committed.",
+    "funFacts": [
+      "The Evening News coined 'Bakerloo' in a headline shortly after the line opened in 1906, to the considerable displeasure of the operating company, which considered it undignified slang. The company refused to use the name officially for years - but public usage was so consistent and widespread that it eventually accepted the inevitable and adopted it.",
+      "The Bakerloo was financed by the American tramway tycoon Charles Tyson Yerkes, whose Underground Electric Railways of London also built the Piccadilly and Hampstead (now Northern) tube lines. Yerkes died in December 1905, three months before the Bakerloo's first trains ran. He never saw a single one of his three London tubes in operation."
+    ]
+  },
+  "piccadilly": {
+    "originalNames": [
+      {
+        "name": "Great Northern, Piccadilly and Brompton Railway",
+        "years": "1906-1933"
+      }
+    ],
+    "imageUrl": "Gn piccadilly and brompton tube poster.jpg",
+    "imagePosition": "top",
+    "keyEngineers": ["James Henry Greathead", "Harley Hugh Dalrymple-Hay"],
+    "history": "Opened on 15 December 1906 as the Great Northern, Piccadilly and Brompton Railway, the line was extended north to Cockfosters in 1933 with a celebrated sequence of stations designed by Charles Holden - widely considered the finest public architecture of the interwar period. The extension west to Heathrow Airport in 1977 was the first direct rail link between central London and a major airport, followed by Terminal 4 in 1986 and Terminal 5 in 2008. The Piccadilly line now carries a higher proportion of international passengers than any other line on the network, serving both Heathrow terminals and the airline quarter around Hatton Cross.",
+    "funFacts": [
+      "The 1977 extension to Heathrow was the first direct rail link between central London and any major airport in Britain - a connection that seems obvious in retrospect but which planners had dismissed for decades on the grounds that passengers carrying luggage would not use the tube. The sceptics were proved wrong immediately: the airport service was among the busiest on the line from its first week.",
+      "The 1933 Cockfosters extension was preceded by a six-week study tour of Scandinavia, the Netherlands and Germany by Charles Holden and Frank Pick, the Underground's commercial manager. Erik Gunnar Asplund's Stockholm Public Library, Willem Dudok's Hilversum Town Hall, and a clutch of Dutch transport buildings shaped the modernist station sequence from Sudbury Town to Cockfosters - widely regarded as the most coherent stretch of public architecture built in Britain between the wars.",
+      "During both World Wars the closed Aldwych branch tunnels were requisitioned as a secure store for irreplaceable national treasures. Items held there included the Elgin Marbles from the British Museum, paintings from the National Gallery, sculptures from the Tate, and parts of the Public Record Office archive. Some of the Elgin Marbles spent nearly all of the Second World War 30 metres below the Strand."
+    ]
+  },
+  "northern": {
+    "originalNames": [
+      {
+        "name": "City & South London Railway",
+        "years": "1890-1933"
+      },
+      {
+        "name": "Charing Cross, Euston and Hampstead Railway",
+        "years": "1907-1933"
+      }
+    ],
+    "imageUrl": "Hampstead Tube - Now Open.jpg",
+    "imagePosition": "top",
+    "keyEngineers": ["James Henry Greathead", "Sir Benjamin Baker"],
+    "history": "The Northern line descends from two separate railways. The City & South London Railway, opened 18 December 1890, was the world's first deep-level electric tube, running from Stockwell to King William Street (a since-closed station near Monument); Bank platforms came when the line was extended in 1900. The Charing Cross, Euston and Hampstead Railway opened in 1907. Both were modernised and merged in the 1920s, their original 10-foot tunnels enlarged to accommodate standard rolling stock. Named the Northern line in 1937, the combined route has a distinctive branching structure - Bank branch and Charing Cross branch - that makes it one of the most operationally complex lines on the network. The Morden extension opened in 1926 and the line reaches further south than any other on the Underground.",
+    "funFacts": [
+      "The Northern line has the most complex topology on the Underground: two southern termini (Morden and a Kennington loop), two routes through central London (Bank branch and Charing Cross branch), and two northern branches (Edgware and High Barnet/Mill Hill East). A delay anywhere in the system tends to cascade through the branching points, which is the main structural reason for the line's reputation for service disruptions.",
+      "The Northern Heights plan of the late 1930s would have extended the line further north and east of Edgware to Bushey Heath and absorbed surface branches reaching Alexandra Palace. The Second World War halted construction, and post-war Green Belt restrictions meant the lines were never completed. The Highgate tunnels were fully bored but never fitted out for passenger service - they still exist beneath the station, a frozen relic of a network that was never built.",
+      "When the City and South London Railway opened in 1890, its carriages had no windows. The engineers reasoned that there was nothing to see in tunnels, so windows were dispensed with as unnecessary. Passengers, sitting back-to-back on benches beneath a single dim electric bulb, nicknamed them 'padded cells' and complained so persistently that the next generation of CSLR stock had to feature windows after all."
+    ]
+  },
+  "victoria": {
+    "imageUrl": "2009 stock at Euston.jpg",
+    "history": "The Victoria line was the first entirely new deep-level tube route since the interwar period, opening from Walthamstow Central to Highbury & Islington in September 1968, extended to Victoria in December that year and to Brixton in 1971. It was the first line designed from the outset with Automatic Train Operation - the driver manages the doors but the train accelerates and brakes automatically, a system still in use today. Named after Victoria station, it runs entirely underground with no surface-level track, and cuts through central London in a near-straight north-south corridor.",
+    "funFacts": [
+      "When the Victoria line opened with Automatic Train Operation in 1968, the Department of Transport proposed trialling fully driverless running - removing the driver entirely. Trade unions blocked the move, resulting in the arrangement still in use today: drivers are present and manage the doors and can override the system, but under normal operation the train drives itself.",
+      "Every Victoria line station was given a distinctive tile mural on its platform seat recesses, designed by a different artist as a visual clue to help passengers identify their stop. Hans Unger contributed a literal 'ton of bricks' design at Brixton, Edward Bawden a heraldic crown at Victoria, and Tom Eckersley a stylised whistling kettle at Highbury & Islington. The originals survive on most platforms.",
+      "Pimlico is the only station on the Victoria line that wasn't open when trains first ran through the site. Inserted in September 1972 - more than a year after services to Brixton began - it required platforms to be cut into existing operational tunnels while trains continued to pass. It remains the only intermediate station ever added to an already-operating section of a modern Underground line."
+    ]
+  },
+  "jubilee": {
+    "imageUrl": "Stratford station MMB 50 1996 Stock.jpg",
+    "history": "The Jubilee line opened on 1 May 1979, named to mark the Silver Jubilee of Queen Elizabeth II in 1977, though delays pushed the opening back two years. The original route ran from Stanmore to Charing Cross. The eastern extension, opened 17 September 1999 at a cost of approximately £3.5 billion, diverted the line from Green Park through Docklands to Stratford and permanently closed the Charing Cross terminus. The extension's stations - designed by Foster, Grimshaw, Hopkins, and MacCormac among others - are widely regarded as the most architecturally ambitious on the network.",
+    "funFacts": [
+      "The Jubilee line extension was originally projected to cost £1.7 billion; the final cost was approximately £3.5 billion. Despite the overrun, the economic transformation along the route - from the regeneration of Bermondsey and Canada Water to the development of Stratford - is estimated to have generated many times that figure in increased land values and business activity.",
+      "The 1999 Jubilee line extension was the first British Underground line built with full-height platform-edge doors. Glazed walls fitted with sliding panels aligned to each train door prevent passengers falling onto the tracks and allow trains to approach stations faster than is otherwise safe. The technology has since been adopted by the Elizabeth line's central section and is planned for retrofit at older stations.",
+      "Since the Jubilee's Charing Cross terminus closed in 1999, its disused platforms have become one of British film's most heavily-used 'tube station' locations. Skyfall, Tomb Raider, 28 Weeks Later, Spooks and Sherlock have all filmed there - sometimes dressing the platforms with fictional names to disguise the location, sometimes leaving the Charing Cross signage visible as a knowing nod."
+    ]
+  },
+  "hammersmith-city": {
+    "originalNames": [
+      {
+        "name": "Metropolitan Railway (Hammersmith branch)",
+        "years": "1864-1933"
+      },
+      { "name": "Metropolitan line (Hammersmith branch)", "years": "1933-1990" }
+    ],
+    "imageUrl": "GWR_broad_gauge_on_Metropolitan_Railway.jpg",
+    "keyEngineers": ["John Fowler"],
+    "history": "The Hammersmith & City line follows one of the oldest sections of the Underground, opened in 1864 as part of the Metropolitan Railway's extension west to Hammersmith. For most of its history it was operated as an extension of the Metropolitan line rather than a distinct service, sharing infrastructure through central London. It was given its own name in 1990 when London Underground separated its operations. The line runs from Hammersmith to Barking via Paddington and Liverpool Street, sharing tracks with the Circle and Metropolitan lines through the central section.",
+    "funFacts": [
+      "The line's earliest services in 1864 ran on broad gauge tracks shared with the Great Western Railway - the same 7ft quarter-inch gauge Brunel had used for the GWR main line. Standard gauge was imposed in 1869, requiring the replacement of all rolling stock and the relaying of track on the entire shared section within a single weekend.",
+      "The Hammersmith & City has never had a single deep-tube section: every metre of its 28 stations is at street level, in a cutting, or just below the surface using cut-and-cover construction. With the Metropolitan and District it is one of only three London Underground lines whose trains are sub-surface stock - too tall and wide to fit through the deep tunnels of the other lines."
+    ]
+  },
+  "waterloo-city": {
+    "imageUrl": "Starting_from_Waterloo.jpg",
+    "keyEngineers": ["W.R. Galbraith"],
+    "history": "Opened on 11 July 1898, the Waterloo & City was built by the London and South Western Railway to carry commuters arriving at Waterloo directly into the City - the only Underground line originally built and operated by a mainline railway company. At 1.5 miles it remains the shortest route on the network, with an end-to-end journey of around four minutes. It operated outside London Transport from 1933 until British Rail transferred it to London Underground in 1994. The line closes entirely on Sundays, reflecting its near-exclusive role serving the financial district's weekday commuter flow.",
+    "funFacts": [
+      "Unlike every other Underground line, the Waterloo & City was not absorbed into the London Passenger Transport Board in 1933, remaining part of the national railway network through the LSWR, Southern Railway, and British Rail. It was eventually transferred to London Underground on 1 April 1994 - for a price of £1.",
+      "The line's trains are physically cut off from the rest of the rail network. Replacement rolling stock has to be lifted down from street level into the underground depot at Waterloo using a vertical hoist installed for the line's 1898 opening. The hoist - over a century old - is still in use today, and is the only way to get a train onto or off the line.",
+      "City workers nicknamed the line 'The Drain' in the early 20th century, for the windowless, single-purpose tunnel that carried them straight from mainline trains at Waterloo into the financial district at Bank. The name stuck so firmly that London Underground used it in publicity for decades, and it still appears informally on internal signage."
+    ]
+  },
+  "elizabeth": {
+    "imageUrl": "Class345-Crossrail-Line1-FirstTrain-P1390639.jpg",
+    "history": "The Elizabeth line opened on 24 May 2022, with through-running across the full route established in November that year. Planned as Crossrail since the 1990s and constructed over 13 years at a cost of approximately £18.9 billion, it connects Reading and Heathrow in the west to Shenfield and Abbey Wood in the east through 26 miles of new tunnel beneath central London. Named after Queen Elizabeth II shortly before her death in September 2022, it was the largest addition to the London transport network in generations. At peak times it carries up to 24 trains per hour through the central section.",
+    "funFacts": [
+      "During the tunnelling works beneath central London, Crossrail employed a dedicated team of archaeologists who recovered thousands of artefacts from the excavated soil - including Roman pottery, Tudor leather shoes, and the timbers of a 17th-century vessel found near Canary Wharf. The finds are held in a permanent collection and represent one of the largest archaeological hauls from a single infrastructure project in British history.",
+      "The eight tunnel boring machines used by Crossrail were all named after women: Phyllis (after Phyllis Pearsall, creator of the London A-Z), Ada (Ada Lovelace), Victoria, Elizabeth, Mary, Sophia, Jessica and Ellie. The first pair launched from Royal Oak in 2012, and rival boring teams competed to deliver fastest - Phyllis won, completing her drive eastward to Farringdon in just over a year.",
+      "Of the seven million tonnes of earth dug out for the tunnels, around three million tonnes were shipped down the Thames to Essex and used to create Wallasea Island - a 1,500-acre RSPB nature reserve that turned a former arable site into wetland habitat for migratory birds. It is the largest manmade nature reserve created in Europe in recent decades."
+    ]
+  }
+}
