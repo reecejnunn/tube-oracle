@@ -1,0 +1,6457 @@
+[
+  {
+    "id": "paddington",
+    "name": "Paddington",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863,
+        "validTo": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 3.7,
+      "y": 5.3
+    },
+    "labelAnchor": "left"
+  },
+  {
+    "id": "paddington-elizabeth",
+    "name": "Paddington",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863,
+        "validTo": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 4,
+      "y": 5.6
+    },
+    "labelAnchor": "above",
+    "connectedTo": "paddington",
+    "visibleFrom": "1884-05-24"
+  },
+  {
+    "id": "baker-street",
+    "name": "Baker Street",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": 5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "kings-cross",
+    "name": "King's Cross St. Pancras",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      },
+      {
+        "line": "northern",
+        "validFrom": 1907
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": 5
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "edgware-road",
+    "name": "Edgware Road",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863,
+        "validTo": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 6,
+      "y": 5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 20
+    }
+  },
+  {
+    "id": "edgware-road-district",
+    "name": "Edgware Road",
+    "date": "1884-10-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 6,
+      "y": 5.4
+    },
+    "labelAnchor": "below",
+    "connectedTo": "edgware-road",
+    "visibleFrom": "1884-10-01"
+  },
+  {
+    "id": "great-portland-street",
+    "name": "Great Portland Street",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 11,
+      "y": 5
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 20,
+      "y": -5
+    }
+  },
+  {
+    "id": "euston-square",
+    "name": "Euston Square",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 15,
+      "y": 5
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "farringdon",
+    "name": "Farringdon",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 18,
+      "y": 6
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": -10,
+      "y": 5
+    }
+  },
+  {
+    "id": "hammersmith",
+    "name": "Hammersmith (Met)",
+    "date": "1864-06-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 12.4
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": -5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "hammersmith-district",
+    "name": "Hammersmith (District)",
+    "date": "1874-09-09",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1874
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 13
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 10,
+      "y": 0
+    }
+  },
+  {
+    "id": "shepherd-bush",
+    "name": "Shepherd's Bush",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 1,
+      "y": 10
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "latimer-road",
+    "name": "Latimer Road",
+    "date": "1868-12-16",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1868,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 9
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "royal-oak",
+    "name": "Royal Oak",
+    "date": "1871-10-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1871,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "map": {
+      "x": 3,
+      "y": 6
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "westbourne-park",
+    "name": "Westbourne Park",
+    "date": "1866-02-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1866,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "map": {
+      "x": 2,
+      "y": 7
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "notting-hill-gate",
+    "name": "Notting Hill Gate",
+    "date": "1868-10-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 4,
+      "y": 10
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "high-street-kensington",
+    "name": "High Street Kensington",
+    "date": "1868-10-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 4,
+      "y": 11
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 5
+    }
+  },
+  {
+    "id": "gloucester-road",
+    "name": "Gloucester Road",
+    "date": "1868-10-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 5,
+      "y": 13
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": -15,
+      "y": 5
+    }
+  },
+  {
+    "id": "south-kensington",
+    "name": "South Kensington",
+    "date": "1868-12-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 6,
+      "y": 13
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 10,
+      "y": 5
+    }
+  },
+  {
+    "id": "aldersgate",
+    "name": "Barbican",
+    "date": "1865-12-23",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1865
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 19,
+      "y": 7
+    },
+    "labelAnchor": "left"
+  },
+  {
+    "id": "moorgate",
+    "name": "Moorgate",
+    "date": "1865-12-23",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1865
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "northern",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 20,
+      "y": 8
+    },
+    "labelAnchor": "left"
+  },
+  {
+    "id": "ladbroke-grove",
+    "name": "Ladbroke Grove",
+    "date": "1864-06-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "map": {
+      "x": 1,
+      "y": 8
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "bayswater",
+    "name": "Bayswater",
+    "date": "1868-10-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 4,
+      "y": 7.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    }
+  },
+  {
+    "id": "sloane-square",
+    "name": "Sloane Square",
+    "date": "1868-12-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 8,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "victoria",
+    "name": "Victoria",
+    "date": "1868-12-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "st-james-park",
+    "name": "St James's Park",
+    "date": "1868-12-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 11,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "westminster",
+    "name": "Westminster",
+    "date": "1868-12-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "map": {
+      "x": 12,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "embankment",
+    "name": "Embankment",
+    "date": "1870-05-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1870
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      },
+      {
+        "line": "northern",
+        "validFrom": 1914
+      }
+    ],
+    "map": {
+      "x": 15,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "temple",
+    "name": "Temple",
+    "date": "1870-05-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1870
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "blackfriars",
+    "name": "Blackfriars",
+    "date": "1870-05-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1870
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 17,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "mansion-house",
+    "name": "Mansion House",
+    "date": "1871-07-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1871
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 18,
+      "y": 12
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 5
+    }
+  },
+  {
+    "id": "liverpool-street",
+    "name": "Liverpool Street",
+    "date": "1875-07-12",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1875
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "central",
+        "validFrom": 1912
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": 8
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": -18
+    }
+  },
+  {
+    "id": "aldgate",
+    "name": "Aldgate",
+    "date": "1876-11-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1876
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 23,
+      "y": 8.5
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": -1,
+      "y": 0
+    }
+  },
+  {
+    "id": "tower-hill",
+    "name": "Tower Hill",
+    "date": "1884-10-06",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1884
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 23,
+      "y": 10
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    }
+  },
+  {
+    "id": "monument",
+    "name": "Monument",
+    "date": "1884-10-06",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1884
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 20.6,
+      "y": 10
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "cannon-street",
+    "name": "Cannon Street",
+    "date": "1884-10-06",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1884
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "map": {
+      "x": 19,
+      "y": 11
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    }
+  },
+  {
+    "id": "finchley-road",
+    "name": "Finchley Road",
+    "date": "1879-06-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1879
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 7,
+      "y": 2
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "swiss-cottage",
+    "name": "Swiss Cottage",
+    "date": "1879-06-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1879,
+        "validTo": 1940
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 8,
+      "y": 3
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "st-johns-wood",
+    "name": "St John's Wood",
+    "date": "1868-04-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1868,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 9,
+      "y": 4
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "harrow-on-the-hill",
+    "name": "Harrow-on-the-Hill",
+    "date": "1880-08-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1880
+      }
+    ],
+    "map": {
+      "x": -2,
+      "y": -2
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "holland-park",
+    "name": "Holland Park",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 3,
+      "y": 10
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "queensway",
+    "name": "Queensway",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 6,
+      "y": 10
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "lancaster-gate",
+    "name": "Lancaster Gate",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 8,
+      "y": 10
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "marble-arch",
+    "name": "Marble Arch",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 9,
+      "y": 9
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "bond-street",
+    "name": "Bond Street",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": 9
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "oxford-circus",
+    "name": "Oxford Circus",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 12,
+      "y": 9
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 5
+    }
+  },
+  {
+    "id": "tottenham-court-road",
+    "name": "Tottenham Court Road",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      },
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 9
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "holborn",
+    "name": "Holborn",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": 9
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -2
+    }
+  },
+  {
+    "id": "russell-square",
+    "name": "Russell Square",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": 6
+    },
+    "labelAnchor": "below",
+    "tickDirection": "E"
+  },
+  {
+    "id": "down-street",
+    "name": "Down Street",
+    "date": "1907-03-15",
+    "closedDate": "1932-05-21",
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1907,
+        "validTo": 1932
+      }
+    ],
+    "map": {
+      "x": 8.8,
+      "y": 11.2
+    },
+    "labelAnchor": "below",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "york-road",
+    "name": "York Road",
+    "date": "1906-12-15",
+    "closedDate": "1932-09-19",
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906,
+        "validTo": 1932
+      }
+    ],
+    "map": {
+      "x": 16.3,
+      "y": 3.7
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "aldwych",
+    "name": "Aldwych",
+    "date": "1907-11-30",
+    "closedDate": "1994-09-30",
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1907,
+        "validTo": 1994
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": 9.5
+    },
+    "labelAnchor": "below",
+    "tickDirection": "E"
+  },
+  {
+    "id": "chancery-lane",
+    "name": "Chancery Lane",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 17,
+      "y": 9.5
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "st-pauls",
+    "name": "St Paul's",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 18.5,
+      "y": 9.5
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "bank",
+    "name": "Bank",
+    "date": "1900-07-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      },
+      {
+        "line": "northern",
+        "validFrom": 1900
+      },
+      {
+        "line": "waterloo-city",
+        "validFrom": 1898
+      }
+    ],
+    "map": {
+      "x": 20,
+      "y": 9.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "connectedTo": "monument"
+  },
+  {
+    "id": "regent-s-park",
+    "name": "Regent's Park",
+    "date": "1906-03-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": 6
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "piccadilly-circus",
+    "name": "Piccadilly Circus",
+    "date": "1906-03-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 13,
+      "y": 11
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 5
+    }
+  },
+  {
+    "id": "waterloo",
+    "name": "Waterloo",
+    "date": "1906-03-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      },
+      {
+        "line": "northern",
+        "validFrom": 1926
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      },
+      {
+        "line": "waterloo-city",
+        "validFrom": 1898
+      }
+    ],
+    "map": {
+      "x": 15,
+      "y": 16
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "lambeth-north",
+    "name": "Lambeth North",
+    "date": "1906-03-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": 17
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "elephant-castle",
+    "name": "Elephant & Castle",
+    "date": "1890-12-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      },
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ],
+    "map": {
+      "x": 17,
+      "y": 18
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 5
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "barons-court",
+    "name": "Barons Court",
+    "date": "1905-10-09",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1905
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 1,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "west-kensington",
+    "name": "West Kensington",
+    "date": "1874-09-09",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1874
+      }
+    ],
+    "map": {
+      "x": 2,
+      "y": 13
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "earls-court",
+    "name": "Earl's Court",
+    "date": "1871-10-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1871
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 3,
+      "y": 13
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 20,
+      "y": 0
+    }
+  },
+  {
+    "id": "knightsbridge",
+    "name": "Knightsbridge",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 7,
+      "y": 12
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "hyde-park-corner",
+    "name": "Hyde Park Corner",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 8,
+      "y": 12
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "green-park",
+    "name": "Green Park",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": 11
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    }
+  },
+  {
+    "id": "leicester-square",
+    "name": "Leicester Square",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      },
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 11
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "covent-garden",
+    "name": "Covent Garden",
+    "date": "1907-04-11",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 15,
+      "y": 10
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "caledonian-road",
+    "name": "Caledonian Road",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 18,
+      "y": 2
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "holloway-road",
+    "name": "Holloway Road",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 19,
+      "y": 1
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "arsenal",
+    "name": "Arsenal",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": 20,
+      "y": 0
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "finsbury-park",
+    "name": "Finsbury Park",
+    "date": "1906-12-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 21,
+      "y": -1
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    }
+  },
+  {
+    "id": "golders-green",
+    "name": "Golders Green",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": -2
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "hampstead",
+    "name": "Hampstead",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 10.5,
+      "y": -1.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "belsize-park",
+    "name": "Belsize Park",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 12.5,
+      "y": 0.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "chalk-farm",
+    "name": "Chalk Farm",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 13,
+      "y": 1
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "camden-town",
+    "name": "Camden Town",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 2
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "mornington-crescent",
+    "name": "Mornington Crescent",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 3
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "euston",
+    "name": "Euston",
+    "date": "1907-05-12",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 4
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "angel",
+    "name": "Angel",
+    "date": "1901-11-17",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1901
+      }
+    ],
+    "map": {
+      "x": 18,
+      "y": 5
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "id": "old-street",
+    "name": "Old Street",
+    "date": "1901-11-17",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1901
+      }
+    ],
+    "map": {
+      "x": 20,
+      "y": 6
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "warren-street",
+    "name": "Warren Street",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 6
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "goodge-street",
+    "name": "Goodge Street",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 8
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": -8,
+      "y": -15
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "trafalgar-square",
+    "name": "Trafalgar Square",
+    "date": "1906-03-10",
+    "closedDate": "1978-12-31",
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906,
+        "validTo": 1978
+      },
+      {
+        "line": "northern",
+        "validFrom": 1907,
+        "validTo": 1978
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 12
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "charing-cross",
+    "name": "Charing Cross",
+    "originalName": "Trafalgar Square",
+    "date": "1979-11-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1979
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 12
+    },
+    "labelAnchor": "right"
+  },
+  {
+    "id": "kennington",
+    "name": "Kennington",
+    "date": "1890-12-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ],
+    "map": {
+      "x": 15,
+      "y": 20
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": -3,
+      "y": 0
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "oval",
+    "name": "Oval",
+    "date": "1890-12-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 21
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "stockwell",
+    "name": "Stockwell",
+    "date": "1890-12-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1971
+      }
+    ],
+    "map": {
+      "x": 13,
+      "y": 22
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "manor-house",
+    "name": "Manor House",
+    "date": "1932-09-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": -2.3
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "turnpike-lane",
+    "name": "Turnpike Lane",
+    "date": "1932-09-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": -4
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "wood-green",
+    "name": "Wood Green",
+    "date": "1932-09-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": -5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "bounds-green",
+    "name": "Bounds Green",
+    "date": "1932-09-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": -6
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "arnos-grove",
+    "name": "Arnos Grove",
+    "date": "1932-09-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": -7
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "southgate",
+    "name": "Southgate",
+    "date": "1933-03-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": -8
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "oakwood",
+    "name": "Oakwood",
+    "date": "1933-03-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": -9
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "cockfosters",
+    "name": "Cockfosters",
+    "date": "1933-07-31",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": -10
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "borough",
+    "name": "Borough",
+    "date": "1890-12-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ],
+    "map": {
+      "x": 18,
+      "y": 17
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": -5
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "london-bridge",
+    "name": "London Bridge",
+    "date": "1890-12-25",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "map": {
+      "x": 20,
+      "y": 14.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "E"
+  },
+  {
+    "id": "walthamstow-central",
+    "name": "Walthamstow Central",
+    "date": "1968-09-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 28,
+      "y": -2
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "blackhorse-road",
+    "name": "Blackhorse Road",
+    "date": "1968-09-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 26,
+      "y": -2
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "tottenham-hale",
+    "name": "Tottenham Hale",
+    "date": "1968-09-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 25,
+      "y": -2
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "seven-sisters",
+    "name": "Seven Sisters",
+    "date": "1968-09-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 24,
+      "y": -2
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "highbury-islington",
+    "name": "Highbury & Islington",
+    "date": "1968-09-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "map": {
+      "x": 20.3,
+      "y": 2
+    },
+    "labelAnchor": "right",
+    "tickDirection": "E"
+  },
+  {
+    "id": "pimlico",
+    "name": "Pimlico",
+    "date": "1972-09-14",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1971
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": 16
+    },
+    "labelAnchor": "right",
+    "tickDirection": "E"
+  },
+  {
+    "id": "vauxhall",
+    "name": "Vauxhall",
+    "date": "1971-07-23",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1971
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": 19
+    },
+    "labelAnchor": "right",
+    "tickDirection": "E"
+  },
+  {
+    "id": "brixton",
+    "name": "Brixton",
+    "date": "1971-07-23",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1971
+      }
+    ],
+    "map": {
+      "x": 14,
+      "y": 23
+    },
+    "labelAnchor": "below",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "west-hampstead",
+    "name": "West Hampstead",
+    "date": "1979-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 6.5,
+      "y": 1.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "kilburn",
+    "name": "Kilburn",
+    "date": "1979-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 5.5,
+      "y": 0.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "willesden-green",
+    "name": "Willesden Green",
+    "date": "1979-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 5,
+      "y": 0
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "dollis-hill",
+    "name": "Dollis Hill",
+    "date": "1979-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 4.5,
+      "y": -0.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "neasden",
+    "name": "Neasden",
+    "date": "1979-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 4,
+      "y": -1
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "wembley-park",
+    "name": "Wembley Park",
+    "date": "1894-10-12",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1894
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 3.5,
+      "y": -1.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "preston-road",
+    "name": "Preston Road",
+    "date": "1908-05-21",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1908
+      }
+    ],
+    "map": {
+      "x": 1,
+      "y": -2
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "northwick-park",
+    "name": "Northwick Park",
+    "date": "1923-06-28",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1923
+      }
+    ],
+    "map": {
+      "x": -0.5,
+      "y": -2
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": -10,
+      "y": 0
+    }
+  },
+  {
+    "id": "kingsbury",
+    "name": "Kingsbury",
+    "date": "1932-12-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1932,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 3,
+      "y": -2.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "queensbury",
+    "name": "Queensbury",
+    "date": "1934-12-16",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1934,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 3,
+      "y": -3
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": -5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "canons-park",
+    "name": "Canons Park",
+    "date": "1932-12-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1932,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 3,
+      "y": -3.5
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": -5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "stanmore",
+    "name": "Stanmore",
+    "date": "1932-12-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1932,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "map": {
+      "x": 3,
+      "y": -4
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": -5,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "southwark",
+    "name": "Southwark",
+    "date": "1999-11-07",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "map": {
+      "x": 17,
+      "y": 16
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "bermondsey",
+    "name": "Bermondsey",
+    "date": "1999-11-07",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "map": {
+      "x": 21,
+      "y": 15.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "canada-water",
+    "name": "Canada Water",
+    "date": "1999-11-07",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "map": {
+      "x": 23,
+      "y": 16
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "canary-wharf",
+    "name": "Canary Wharf",
+    "date": "1999-11-07",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 26,
+      "y": 16
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "north-greenwich",
+    "name": "North Greenwich",
+    "date": "1999-11-07",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "map": {
+      "x": 28,
+      "y": 17
+    },
+    "labelAnchor": "below",
+    "labelOffset": {
+      "x": 0,
+      "y": 5
+    }
+  },
+  {
+    "id": "canning-town",
+    "name": "Canning Town",
+    "date": "1999-11-07",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "map": {
+      "x": 30,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "tickDirection": "E"
+  },
+  {
+    "id": "west-ham",
+    "name": "West Ham",
+    "date": "1902-02-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 30,
+      "y": 7.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "stratford",
+    "name": "Stratford",
+    "date": "1946-12-04",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1946
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 30,
+      "y": 5
+    },
+    "labelAnchor": "above",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "whitechapel",
+    "name": "Whitechapel",
+    "date": "1876-04-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      },
+      {
+        "line": "district",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 25.5,
+      "y": 7.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "custom-house",
+    "name": "Custom House",
+    "date": "2022-05-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 32,
+      "y": 16
+    },
+    "labelAnchor": "above",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "abbey-wood",
+    "name": "Abbey Wood",
+    "date": "2022-05-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 32,
+      "y": 21
+    },
+    "labelAnchor": "above",
+    "tickDirection": "E"
+  },
+  {
+    "id": "farringdon-elizabeth",
+    "name": "Farringdon",
+    "date": "1863-01-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 18,
+      "y": 5.5
+    },
+    "labelAnchor": "above",
+    "connectedTo": "farringdon",
+    "visibleFrom": "2022-05-24"
+  },
+  {
+    "id": "liverpool-street-elizabeth",
+    "name": "Liverpool Street",
+    "date": "1875-07-12",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1875
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "central",
+        "validFrom": 1912
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 22,
+      "y": 7.5
+    },
+    "labelAnchor": "above",
+    "connectedTo": "liverpool-street",
+    "visibleFrom": "1946-05-24"
+  },
+  {
+    "id": "wood-lane-original",
+    "name": "Wood Lane",
+    "date": "1908-05-01",
+    "closedDate": "1947-01-01",
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1908,
+        "validTo": 1946
+      }
+    ],
+    "map": {
+      "x": 0.5,
+      "y": 9.5
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": 4
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "wood-lane",
+    "name": "Wood Lane",
+    "date": "2008-10-27",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 2008
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 10.5
+    },
+    "labelAnchor": "left"
+  },
+  {
+    "id": "shepherd-bush-met",
+    "name": "Shepherd's Bush (Met)",
+    "date": "1864-06-13",
+    "closedDate": "1914-04-01",
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1914
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 11
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "shepherd-bush-market",
+    "name": "Shepherd's Bush Market",
+    "date": "1914-04-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1914,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 11
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "goldhawk-road",
+    "name": "Goldhawk Road",
+    "date": "1914-04-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1914,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 11.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "bethnal-green",
+    "name": "Bethnal Green",
+    "date": "1946-12-04",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1946
+      }
+    ],
+    "map": {
+      "x": 26.2,
+      "y": 6.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "mile-end-central",
+    "name": "Mile End",
+    "date": "1902-06-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "central",
+        "validFrom": 1946
+      }
+    ],
+    "map": {
+      "x": 27.25,
+      "y": 7
+    },
+    "labelAnchor": "above",
+    "connectedTo": "mile-end",
+    "visibleFrom": "1946-12-04"
+  },
+  {
+    "id": "mile-end",
+    "name": "Mile End",
+    "date": "1902-06-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "central",
+        "validFrom": 1946
+      }
+    ],
+    "map": {
+      "x": 27.25,
+      "y": 7.5
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "leyton",
+    "name": "Leyton",
+    "date": "1947-05-05",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": 31.6,
+      "y": 3.4
+    },
+    "labelAnchor": "above",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "leytonstone",
+    "name": "Leytonstone",
+    "date": "1947-05-05",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": 32,
+      "y": 2
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "marylebone",
+    "name": "Marylebone",
+    "date": "1907-03-27",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 8,
+      "y": 4.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "edgware-road-bakerloo",
+    "name": "Edgware Road",
+    "date": "1907-06-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 5,
+      "y": 4.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "paddington-bakerloo",
+    "name": "Paddington",
+    "date": "1913-12-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1913
+      }
+    ],
+    "map": {
+      "x": 3,
+      "y": 4.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "warwick-avenue",
+    "name": "Warwick Avenue",
+    "date": "1915-01-31",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "map": {
+      "x": 2,
+      "y": 4.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "maida-vale",
+    "name": "Maida Vale",
+    "date": "1915-06-06",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "map": {
+      "x": 1.2,
+      "y": 4.2
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "kilburn-park",
+    "name": "Kilburn Park",
+    "date": "1915-01-31",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "map": {
+      "x": 0.8,
+      "y": 3.8
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "queens-park",
+    "name": "Queen's Park",
+    "date": "1879-06-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "map": {
+      "x": 0.4,
+      "y": 3.4
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "kensal-green",
+    "name": "Kensal Green",
+    "date": "1916-10-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1916
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 2.7
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "willesden-junction",
+    "name": "Willesden Junction",
+    "date": "1915-05-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 2
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "harlesden",
+    "name": "Harlesden",
+    "date": "1912-06-15",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 1.3
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "stonebridge-park",
+    "name": "Stonebridge Park",
+    "date": "1917-08-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": 0.6
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "wembley-central",
+    "name": "Wembley Central",
+    "date": "1917-04-16",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": -0.1
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "north-wembley",
+    "name": "North Wembley",
+    "date": "1917-04-16",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": -0.8
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "south-kenton",
+    "name": "South Kenton",
+    "date": "1933-07-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": -1.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "kenton",
+    "name": "Kenton",
+    "date": "1917-04-16",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": -2.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "harrow-wealdstone",
+    "name": "Harrow & Wealdstone",
+    "date": "1897-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "map": {
+      "x": 0,
+      "y": -3.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "west-brompton",
+    "name": "West Brompton",
+    "date": "1869-04-12",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1871
+      }
+    ],
+    "map": {
+      "x": 2.5,
+      "y": 14
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "fulham-broadway",
+    "name": "Fulham Broadway",
+    "date": "1880-03-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1880
+      }
+    ],
+    "map": {
+      "x": 2.5,
+      "y": 15
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "parsons-green",
+    "name": "Parsons Green",
+    "date": "1880-03-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1880
+      }
+    ],
+    "map": {
+      "x": 2.5,
+      "y": 15.7
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "putney-bridge",
+    "name": "Putney Bridge",
+    "date": "1880-03-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1880
+      }
+    ],
+    "map": {
+      "x": 2.5,
+      "y": 16.4
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "east-putney",
+    "name": "East Putney",
+    "date": "1889-06-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1889
+      }
+    ],
+    "map": {
+      "x": 2.5,
+      "y": 18
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "southfields",
+    "name": "Southfields",
+    "date": "1889-06-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1889
+      }
+    ],
+    "map": {
+      "x": 2.5,
+      "y": 19
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "wimbledon-park",
+    "name": "Wimbledon Park",
+    "date": "1889-06-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1889
+      }
+    ],
+    "map": {
+      "x": 2.5,
+      "y": 20
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "wimbledon",
+    "name": "Wimbledon",
+    "date": "1889-06-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1889
+      }
+    ],
+    "map": {
+      "x": 2.5,
+      "y": 21
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "ravenscourt-park",
+    "name": "Ravenscourt Park",
+    "date": "1877-06-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "map": {
+      "x": -1,
+      "y": 13
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "stamford-brook",
+    "name": "Stamford Brook",
+    "date": "1912-02-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1912
+      }
+    ],
+    "map": {
+      "x": -2,
+      "y": 13
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "turnham-green",
+    "name": "Turnham Green",
+    "date": "1877-06-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      },
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "map": {
+      "x": -3,
+      "y": 13
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "gunnersbury",
+    "name": "Gunnersbury",
+    "date": "1877-06-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "map": {
+      "x": -5,
+      "y": 14.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "kew-gardens",
+    "name": "Kew Gardens",
+    "date": "1877-06-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "map": {
+      "x": -6.5,
+      "y": 16
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "richmond",
+    "name": "Richmond",
+    "date": "1877-06-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "map": {
+      "x": -7.5,
+      "y": 17
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "chiswick-park",
+    "name": "Chiswick Park",
+    "date": "1879-07-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1879
+      }
+    ],
+    "map": {
+      "x": -5,
+      "y": 13
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "acton-town",
+    "name": "Acton Town",
+    "date": "1879-07-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      },
+      {
+        "line": "district",
+        "validFrom": 1879
+      }
+    ],
+    "map": {
+      "x": -5.7,
+      "y": 13
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 5,
+      "y": -5
+    }
+  },
+  {
+    "id": "ealing-common",
+    "name": "Ealing Common",
+    "date": "1879-07-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      },
+      {
+        "line": "district",
+        "validFrom": 1879
+      }
+    ],
+    "map": {
+      "x": -6.5,
+      "y": 11.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "ealing-common-piccadilly",
+    "name": "Ealing Common",
+    "date": "1879-07-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      },
+      {
+        "line": "district",
+        "validFrom": 1906
+      }
+    ],
+    "map": {
+      "x": -6.2,
+      "y": 11.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E",
+    "connectedTo": "ealing-common",
+    "visibleFrom": "1879-07-04"
+  },
+  {
+    "id": "ealing-broadway",
+    "name": "Ealing Broadway",
+    "date": "1879-07-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1879
+      },
+      {
+        "line": "central",
+        "validFrom": 1920
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "map": {
+      "x": -7,
+      "y": 10
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "aldgate-east",
+    "name": "Aldgate East",
+    "date": "1884-10-06",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 24.08,
+      "y": 7.8
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NW"
+  },
+  {
+    "id": "stepney-green",
+    "name": "Stepney Green",
+    "date": "1902-06-23",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 26.5,
+      "y": 7.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "bow-road",
+    "name": "Bow Road",
+    "date": "1902-06-11",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 28,
+      "y": 7.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "bromley-by-bow",
+    "name": "Bromley-by-Bow",
+    "date": "1902-06-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 29,
+      "y": 7.5
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "plaistow",
+    "name": "Plaistow",
+    "date": "1858-03-31",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 31,
+      "y": 7.5
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "upton-park",
+    "name": "Upton Park",
+    "date": "1877-09-17",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 32,
+      "y": 7.5
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "east-ham",
+    "name": "East Ham",
+    "date": "1858-03-31",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 33,
+      "y": 7.5
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "barking",
+    "name": "Barking",
+    "date": "1902-06-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "map": {
+      "x": 34,
+      "y": 7.5
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "white-city",
+    "name": "White City",
+    "date": "1947-11-23",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": -0.3,
+      "y": 10
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "east-acton",
+    "name": "East Acton",
+    "date": "1920-08-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1920
+      }
+    ],
+    "map": {
+      "x": -1,
+      "y": 10
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "north-acton",
+    "name": "North Acton",
+    "date": "1923-11-05",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1923
+      }
+    ],
+    "map": {
+      "x": -1.5,
+      "y": 10
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "west-acton",
+    "name": "West Acton",
+    "date": "1923-11-05",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1923
+      }
+    ],
+    "map": {
+      "x": -3.5,
+      "y": 10
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "south-ealing",
+    "name": "South Ealing",
+    "date": "1883-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1883,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1935
+      }
+    ],
+    "map": {
+      "x": -7.6,
+      "y": 13.1
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "northfields",
+    "name": "Northfields",
+    "date": "1908-04-16",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1908,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -8,
+      "y": 13.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "boston-manor",
+    "name": "Boston Manor",
+    "date": "1883-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1883,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -8.5,
+      "y": 14
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "osterley",
+    "name": "Osterley",
+    "date": "1934-03-25",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1934,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1934
+      }
+    ],
+    "map": {
+      "x": -9,
+      "y": 14.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "hounslow-east",
+    "name": "Hounslow East",
+    "date": "1909-05-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1909,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -9.5,
+      "y": 15
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "hounslow-central",
+    "name": "Hounslow Central",
+    "date": "1886-04-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1886,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -10,
+      "y": 15.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "hounslow-west",
+    "name": "Hounslow West",
+    "date": "1884-07-21",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1884,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -10.5,
+      "y": 16
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "hatton-cross",
+    "name": "Hatton Cross",
+    "date": "1975-07-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1975
+      }
+    ],
+    "map": {
+      "x": -11.5,
+      "y": 17
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "heathrow-terminals-2-3",
+    "name": "Heathrow Terminals 2 & 3",
+    "date": "1977-12-16",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1977
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 1998
+      }
+    ],
+    "map": {
+      "x": -12,
+      "y": 17.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "heathrow-terminal-5",
+    "name": "Heathrow Terminal 5",
+    "date": "2008-03-27",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 2008
+      },
+      {
+        "line": "elizabeth",
+        "validFrom": 2008
+      }
+    ],
+    "map": {
+      "x": -13.5,
+      "y": 19.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "north-ealing",
+    "name": "North Ealing",
+    "date": "1903-06-23",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": -6.2,
+      "y": 8.5
+    },
+    "labelAnchor": "above",
+    "tickDirection": "E"
+  },
+  {
+    "id": "park-royal",
+    "name": "Park Royal",
+    "date": "1931-07-06",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": -6.2,
+      "y": 6.6
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "alperton",
+    "name": "Alperton",
+    "date": "1903-06-28",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": -6.2,
+      "y": 3.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "sudbury-town",
+    "name": "Sudbury Town",
+    "date": "1903-06-28",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": -6.2,
+      "y": 2
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "sudbury-hill",
+    "name": "Sudbury Hill",
+    "date": "1903-06-28",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": -6.2,
+      "y": 1
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "south-harrow",
+    "name": "South Harrow",
+    "date": "1903-06-28",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": -6.2,
+      "y": -0.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "rayners-lane",
+    "name": "Rayners Lane",
+    "date": "1906-05-26",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1906
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1933
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -6.5,
+      "y": -3.5
+    },
+    "labelAnchor": "left",
+    "labelOffset": {
+      "x": -5,
+      "y": 5
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "eastcote",
+    "name": "Eastcote",
+    "date": "1906-05-26",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1906
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1933
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -7,
+      "y": -4
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 5,
+      "y": -5
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "ruislip-manor",
+    "name": "Ruislip Manor",
+    "date": "1912-08-05",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1912
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1933
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -8,
+      "y": -4.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "ruislip",
+    "name": "Ruislip",
+    "date": "1904-07-04",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1904
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1933
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -8.5,
+      "y": -4.5
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "ickenham",
+    "name": "Ickenham",
+    "date": "1905-09-25",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1905
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1933
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -10,
+      "y": -4.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "hillingdon",
+    "name": "Hillingdon",
+    "date": "1923-12-10",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1923
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1933
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -11,
+      "y": -4.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "uxbridge",
+    "name": "Uxbridge",
+    "date": "1904-07-04",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1904
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1933
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -12,
+      "y": -4.5
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "west-harrow",
+    "name": "West Harrow",
+    "date": "1913-11-17",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1913
+      }
+    ],
+    "map": {
+      "x": -4,
+      "y": -2
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "north-harrow",
+    "name": "North Harrow",
+    "date": "1915-03-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1915
+      }
+    ],
+    "map": {
+      "x": -3.5,
+      "y": -3
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "pinner",
+    "name": "Pinner",
+    "date": "1885-05-25",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1885
+      }
+    ],
+    "map": {
+      "x": -4,
+      "y": -3.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "northwood-hills",
+    "name": "Northwood Hills",
+    "date": "1933-11-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1933
+      }
+    ],
+    "map": {
+      "x": -4.5,
+      "y": -4
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "northwood",
+    "name": "Northwood",
+    "date": "1887-09-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1887
+      }
+    ],
+    "map": {
+      "x": -5,
+      "y": -4.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "moor-park",
+    "name": "Moor Park",
+    "date": "1910-05-09",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1910
+      }
+    ],
+    "map": {
+      "x": -5.5,
+      "y": -5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "rickmansworth",
+    "name": "Rickmansworth",
+    "date": "1887-09-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1887
+      }
+    ],
+    "map": {
+      "x": -6.5,
+      "y": -6
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "chorleywood",
+    "name": "Chorleywood",
+    "date": "1889-07-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1889
+      }
+    ],
+    "map": {
+      "x": -7,
+      "y": -6.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "chalfont-latimer",
+    "name": "Chalfont & Latimer",
+    "date": "1889-07-08",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1889
+      }
+    ],
+    "map": {
+      "x": -10,
+      "y": -7
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "amersham",
+    "name": "Amersham",
+    "date": "1892-09-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1892
+      }
+    ],
+    "map": {
+      "x": -12.5,
+      "y": -7
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "chesham",
+    "name": "Chesham",
+    "date": "1889-07-08",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1889
+      }
+    ],
+    "map": {
+      "x": -11.5,
+      "y": -8
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "croxley",
+    "name": "Croxley",
+    "date": "1925-11-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1925
+      }
+    ],
+    "map": {
+      "x": -6,
+      "y": -6.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "E"
+  },
+  {
+    "id": "watford-met",
+    "name": "Watford",
+    "date": "1925-11-02",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1925
+      }
+    ],
+    "map": {
+      "x": -6,
+      "y": -7.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "clapham-north",
+    "name": "Clapham North",
+    "date": "1900-06-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 12,
+      "y": 23
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "clapham-common",
+    "name": "Clapham Common",
+    "date": "1900-06-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1900
+      }
+    ],
+    "map": {
+      "x": 11,
+      "y": 24
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "clapham-south",
+    "name": "Clapham South",
+    "date": "1926-09-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "map": {
+      "x": 10,
+      "y": 25
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "balham",
+    "name": "Balham",
+    "date": "1926-09-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "map": {
+      "x": 9.3,
+      "y": 25.7
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "tooting-bec",
+    "name": "Tooting Bec",
+    "date": "1926-09-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "map": {
+      "x": 8.5,
+      "y": 26.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "tooting-broadway",
+    "name": "Tooting Broadway",
+    "date": "1926-09-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "map": {
+      "x": 7.7,
+      "y": 27.3
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "colliers-wood",
+    "name": "Colliers Wood",
+    "date": "1926-09-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "map": {
+      "x": 7,
+      "y": 28
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "south-wimbledon",
+    "name": "South Wimbledon",
+    "date": "1926-09-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "map": {
+      "x": 6.3,
+      "y": 28.7
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "morden",
+    "name": "Morden",
+    "date": "1926-09-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "map": {
+      "x": 5,
+      "y": 30
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "nine-elms",
+    "name": "Nine Elms",
+    "date": "2021-09-20",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 2021
+      }
+    ],
+    "map": {
+      "x": 8,
+      "y": 18
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "battersea-power-station",
+    "name": "Battersea Power Station",
+    "date": "2021-09-20",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 2021
+      }
+    ],
+    "map": {
+      "x": 6.5,
+      "y": 18
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "acton-main-line",
+    "name": "Acton Main Line",
+    "date": "1868-02-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "map": {
+      "x": -1.5,
+      "y": 6
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "west-ealing",
+    "name": "West Ealing",
+    "date": "1871-03-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "map": {
+      "x": -8.2,
+      "y": 10
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "hanwell",
+    "name": "Hanwell",
+    "date": "1838-12-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "map": {
+      "x": -9.2,
+      "y": 10
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "southall",
+    "name": "Southall",
+    "date": "1839-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "map": {
+      "x": -10,
+      "y": 10
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "hayes-harlington",
+    "name": "Hayes & Harlington",
+    "date": "1868-01-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "map": {
+      "x": -11.5,
+      "y": 10
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "heathrow-terminal-4",
+    "name": "Heathrow Terminal 4",
+    "date": "1998-06-23",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 1998
+      }
+    ],
+    "map": {
+      "x": -12.2,
+      "y": 19.5
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "hanger-lane",
+    "name": "Hanger Lane",
+    "date": "1947-06-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": -5.9,
+      "y": 6.1
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "perivale",
+    "name": "Perivale",
+    "date": "1947-06-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": -7.2,
+      "y": 4.8
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "greenford",
+    "name": "Greenford",
+    "date": "1947-06-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": -8.2,
+      "y": 3.8
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NE"
+  },
+  {
+    "id": "northolt",
+    "name": "Northolt",
+    "date": "1948-11-21",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "map": {
+      "x": -9.3,
+      "y": 1
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "south-ruislip",
+    "name": "South Ruislip",
+    "date": "1948-11-21",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "map": {
+      "x": -9.3,
+      "y": 0
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "ruislip-gardens",
+    "name": "Ruislip Gardens",
+    "date": "1948-11-21",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "map": {
+      "x": -9.3,
+      "y": -2.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "west-ruislip",
+    "name": "West Ruislip",
+    "date": "1948-11-21",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "map": {
+      "x": -9.3,
+      "y": -5.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "kentish-town",
+    "name": "Kentish Town",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -0.3
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "tufnell-park",
+    "name": "Tufnell Park",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -1
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "archway",
+    "name": "Archway",
+    "date": "1907-06-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -2.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "east-finchley",
+    "name": "East Finchley",
+    "date": "1939-07-03",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1939
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -3.7
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "highgate",
+    "name": "Highgate",
+    "date": "1941-01-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1941
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -3.3
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "finchley-central",
+    "name": "Finchley Central",
+    "date": "1940-04-14",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -4.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "mill-hill-east",
+    "name": "Mill Hill East",
+    "date": "1941-05-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1941
+      }
+    ],
+    "map": {
+      "x": 15.5,
+      "y": -5.2
+    },
+    "labelAnchor": "above",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "west-finchley",
+    "name": "West Finchley",
+    "date": "1940-04-14",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -6
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "woodside-park",
+    "name": "Woodside Park",
+    "date": "1940-04-14",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -6.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "totteridge-whetstone",
+    "name": "Totteridge & Whetstone",
+    "date": "1940-04-14",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -7
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "high-barnet",
+    "name": "High Barnet",
+    "date": "1940-04-14",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "map": {
+      "x": 16,
+      "y": -8
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "E"
+  },
+  {
+    "id": "brent-cross",
+    "name": "Brent Cross",
+    "date": "1923-11-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1923
+      }
+    ],
+    "map": {
+      "x": 9.5,
+      "y": -2.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "hendon-central",
+    "name": "Hendon Central",
+    "date": "1923-11-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1923
+      }
+    ],
+    "map": {
+      "x": 9,
+      "y": -3
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "burnt-oak",
+    "name": "Burnt Oak",
+    "date": "1924-10-27",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1924
+      }
+    ],
+    "map": {
+      "x": 7,
+      "y": -5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "colindale",
+    "name": "Colindale",
+    "date": "1924-08-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1924
+      }
+    ],
+    "map": {
+      "x": 7.5,
+      "y": -4.5
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "edgware",
+    "name": "Edgware",
+    "date": "1923-11-19",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1923
+      }
+    ],
+    "map": {
+      "x": 6.3,
+      "y": -5.7
+    },
+    "labelAnchor": "right",
+    "labelOffset": {
+      "x": 0,
+      "y": 0
+    },
+    "tickDirection": "NE"
+  },
+  {
+    "id": "upney",
+    "name": "Upney",
+    "date": "1932-05-30",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 35.5,
+      "y": 7
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "becontree",
+    "name": "Becontree",
+    "date": "1932-06-18",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 36.2,
+      "y": 6.3
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "dagenham-heathway",
+    "name": "Dagenham Heathway",
+    "date": "1932-09-12",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 37,
+      "y": 5.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "dagenham-east",
+    "name": "Dagenham East",
+    "date": "1885-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 37.5,
+      "y": 5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "elm-park",
+    "name": "Elm Park",
+    "date": "1935-05-13",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1935
+      }
+    ],
+    "map": {
+      "x": 38,
+      "y": 4.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "hornchurch",
+    "name": "Hornchurch",
+    "date": "1885-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902,
+        "validTo": 1905
+      },
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 38.5,
+      "y": 4
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "upminster-bridge",
+    "name": "Upminster Bridge",
+    "date": "1934-12-17",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1934
+      }
+    ],
+    "map": {
+      "x": 39,
+      "y": 3.5
+    },
+    "labelAnchor": "right",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "upminster",
+    "name": "Upminster",
+    "date": "1885-05-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902,
+        "validTo": 1905
+      },
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "map": {
+      "x": 39.5,
+      "y": 3
+    },
+    "labelAnchor": "above",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "maryland",
+    "name": "Maryland",
+    "date": "1873-01-06",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 31,
+      "y": 4.3
+    },
+    "labelAnchor": "above",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "forest-gate",
+    "name": "Forest Gate",
+    "date": "1840-06-20",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 33,
+      "y": 3
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "manor-park",
+    "name": "Manor Park",
+    "date": "1872-08-06",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 34,
+      "y": 3
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "ilford",
+    "name": "Ilford",
+    "date": "1839-06-20",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 34.5,
+      "y": 3
+    },
+    "labelAnchor": "above"
+  },
+  {
+    "id": "seven-kings",
+    "name": "Seven Kings",
+    "date": "1899-03-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 35,
+      "y": 3
+    },
+    "labelAnchor": "below"
+  },
+  {
+    "id": "goodmayes",
+    "name": "Goodmayes",
+    "date": "1901-02-08",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 36,
+      "y": 2.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "chadwell-heath",
+    "name": "Chadwell Heath",
+    "date": "1864-12-12",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 36.5,
+      "y": 2
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "romford",
+    "name": "Romford",
+    "date": "1839-06-20",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 37,
+      "y": 1.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "gidea-park",
+    "name": "Gidea Park",
+    "date": "1910-12-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 37.5,
+      "y": 1
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "harold-wood",
+    "name": "Harold Wood",
+    "date": "1868-12-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 38,
+      "y": 0.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "brentwood",
+    "name": "Brentwood",
+    "date": "1840-07-01",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 39,
+      "y": -0.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "shenfield",
+    "name": "Shenfield",
+    "date": "1843-06-29",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "map": {
+      "x": 39.5,
+      "y": -1
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "snaresbrook",
+    "name": "Snaresbrook",
+    "date": "1856-08-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": 32,
+      "y": 1
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "south-woodford",
+    "name": "South Woodford",
+    "date": "1856-08-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": 32,
+      "y": -0.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "woodford",
+    "name": "Woodford",
+    "date": "1856-08-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "map": {
+      "x": 32,
+      "y": -1.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "E"
+  },
+  {
+    "id": "buckhurst-hill",
+    "name": "Buckhurst Hill",
+    "date": "1856-08-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "map": {
+      "x": 32.3,
+      "y": -3.3
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "loughton",
+    "name": "Loughton",
+    "date": "1856-08-22",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "map": {
+      "x": 33.5,
+      "y": -4.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "debden",
+    "name": "Debden",
+    "date": "1865-04-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1949
+      }
+    ],
+    "map": {
+      "x": 34,
+      "y": -5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "theydon-bois",
+    "name": "Theydon Bois",
+    "date": "1865-04-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1949
+      }
+    ],
+    "map": {
+      "x": 34.5,
+      "y": -5.5
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  },
+  {
+    "id": "epping",
+    "name": "Epping",
+    "date": "1865-04-24",
+    "closedDate": null,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1949
+      }
+    ],
+    "map": {
+      "x": 35,
+      "y": -6
+    },
+    "labelAnchor": "left",
+    "tickDirection": "NW"
+  }
+]

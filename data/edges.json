@@ -1,0 +1,6118 @@
+[
+  {
+    "id": "paddington-edgware-road",
+    "from": "paddington",
+    "to": "edgware-road",
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1863,
+        "validTo": 1989
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 4,
+        "y": 5
+      }
+    ],
+    "validFrom": 1863
+  },
+  {
+    "id": "edgware-road-baker-street",
+    "from": "edgware-road",
+    "to": "baker-street",
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1863,
+        "validTo": 1989
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": [],
+    "validFrom": 1863
+  },
+  {
+    "id": "baker-street-great-portland-street",
+    "from": "baker-street",
+    "to": "great-portland-street",
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      }
+    ],
+    "waypoints": [],
+    "validFrom": 1863
+  },
+  {
+    "id": "great-portland-street-euston-square",
+    "from": "great-portland-street",
+    "to": "euston-square",
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      }
+    ],
+    "waypoints": [],
+    "validFrom": 1863
+  },
+  {
+    "id": "euston-square-kings-cross",
+    "from": "euston-square",
+    "to": "kings-cross",
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      }
+    ],
+    "waypoints": [],
+    "validFrom": 1863
+  },
+  {
+    "id": "kings-cross-farringdon",
+    "from": "kings-cross",
+    "to": "farringdon",
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1863
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 17,
+        "y": 6
+      }
+    ],
+    "validFrom": 1863
+  },
+  {
+    "id": "latimer-road-ladbroke-grove",
+    "from": "latimer-road",
+    "to": "ladbroke-grove",
+    "validFrom": 1864,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "ladbroke-grove-westbourne-park",
+    "from": "ladbroke-grove",
+    "to": "westbourne-park",
+    "validFrom": 1864,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "westbourne-park-royal-oak",
+    "from": "westbourne-park",
+    "to": "royal-oak",
+    "validFrom": 1864,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "royal-oak-paddington",
+    "from": "royal-oak",
+    "to": "paddington",
+    "validFrom": 1864,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "notting-hill-gate-high-street-kensington",
+    "from": "notting-hill-gate",
+    "to": "high-street-kensington",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1868
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "high-street-kensington-gloucester-road",
+    "from": "high-street-kensington",
+    "to": "gloucester-road",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 4.025,
+        "y": 11.025
+      },
+      {
+        "x": 4.025,
+        "y": 12
+      }
+    ]
+  },
+  {
+    "id": "gloucester-road-south-kensington",
+    "from": "gloucester-road",
+    "to": "south-kensington",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1868
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "farringdon-aldersgate",
+    "from": "farringdon",
+    "to": "aldersgate",
+    "validFrom": 1865,
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1865
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "aldersgate-moorgate",
+    "from": "aldersgate",
+    "to": "moorgate",
+    "validFrom": 1865,
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1865
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "paddington-elizabeth-bayswater",
+    "from": "paddington-elizabeth",
+    "to": "bayswater",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1868
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "paddington-elizabeth-edgware-road-district",
+    "from": "paddington-elizabeth",
+    "to": "edgware-road-district",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 4,
+        "y": 5.4
+      }
+    ]
+  },
+  {
+    "id": "bayswater-notting-hill-gate",
+    "from": "bayswater",
+    "to": "notting-hill-gate",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1868
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "south-kensington-sloane-square",
+    "from": "south-kensington",
+    "to": "sloane-square",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1868
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "sloane-square-victoria",
+    "from": "sloane-square",
+    "to": "victoria",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "district",
+        "validFrom": 1868
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "victoria-st-james-park",
+    "from": "victoria",
+    "to": "st-james-park",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "st-james-park-westminster",
+    "from": "st-james-park",
+    "to": "westminster",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1868
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "westminster-embankment",
+    "from": "westminster",
+    "to": "embankment",
+    "validFrom": 1870,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1870
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "embankment-temple",
+    "from": "embankment",
+    "to": "temple",
+    "validFrom": 1870,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1870
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "temple-blackfriars",
+    "from": "temple",
+    "to": "blackfriars",
+    "validFrom": 1870,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1870
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "blackfriars-mansion-house",
+    "from": "blackfriars",
+    "to": "mansion-house",
+    "validFrom": 1871,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1871
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "moorgate-liverpool-street",
+    "from": "moorgate",
+    "to": "liverpool-street",
+    "validFrom": 1875,
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1875
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "liverpool-street-aldgate",
+    "from": "liverpool-street",
+    "to": "aldgate",
+    "validFrom": 1876,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1876
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 23,
+        "y": 8
+      }
+    ]
+  },
+  {
+    "id": "aldgate-tower-hill",
+    "from": "aldgate",
+    "to": "tower-hill",
+    "validFrom": 1884,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "tower-hill-monument",
+    "from": "tower-hill",
+    "to": "monument",
+    "validFrom": 1884,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1884
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "monument-cannon-street",
+    "from": "monument",
+    "to": "cannon-street",
+    "validFrom": 1884,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1884
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 20,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "cannon-street-mansion-house",
+    "from": "cannon-street",
+    "to": "mansion-house",
+    "validFrom": 1884,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1884
+      },
+      {
+        "line": "circle",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "shepherd-bush-holland-park",
+    "from": "shepherd-bush",
+    "to": "holland-park",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "holland-park-notting-hill-gate",
+    "from": "holland-park",
+    "to": "notting-hill-gate",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "notting-hill-gate-queensway",
+    "from": "notting-hill-gate",
+    "to": "queensway",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "queensway-lancaster-gate",
+    "from": "queensway",
+    "to": "lancaster-gate",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "lancaster-gate-marble-arch",
+    "from": "lancaster-gate",
+    "to": "marble-arch",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "marble-arch-bond-street",
+    "from": "marble-arch",
+    "to": "bond-street",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "bond-street-oxford-circus",
+    "from": "bond-street",
+    "to": "oxford-circus",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "oxford-circus-tottenham-court-road",
+    "from": "oxford-circus",
+    "to": "tottenham-court-road",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "tottenham-court-road-holborn",
+    "from": "tottenham-court-road",
+    "to": "holborn",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 15,
+        "y": 9
+      }
+    ]
+  },
+  {
+    "id": "holborn-chancery-lane",
+    "from": "holborn",
+    "to": "chancery-lane",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 16.2,
+        "y": 9
+      },
+      {
+        "x": 16.7,
+        "y": 9.5
+      }
+    ]
+  },
+  {
+    "id": "chancery-lane-st-pauls",
+    "from": "chancery-lane",
+    "to": "st-pauls",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 17.2,
+        "y": 9.5
+      }
+    ]
+  },
+  {
+    "id": "st-pauls-bank",
+    "from": "st-pauls",
+    "to": "bank",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "baker-street-st-johns-wood",
+    "from": "baker-street",
+    "to": "st-johns-wood",
+    "validFrom": 1868,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1868,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "st-johns-wood-swiss-cottage",
+    "from": "st-johns-wood",
+    "to": "swiss-cottage",
+    "validFrom": 1879,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1879,
+        "validTo": 1940
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "swiss-cottage-finchley-road",
+    "from": "swiss-cottage",
+    "to": "finchley-road",
+    "validFrom": 1879,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1879,
+        "validTo": 1940
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "finchley-road-harrow-on-the-hill",
+    "from": "finchley-road",
+    "to": "harrow-on-the-hill",
+    "validFrom": 1880,
+    "validTo": 1894,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1880,
+        "validTo": 1894
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 3,
+        "y": -2
+      }
+    ]
+  },
+  {
+    "id": "finchley-road-wembley-park",
+    "from": "finchley-road",
+    "to": "wembley-park",
+    "validFrom": 1880,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 6.8,
+        "y": 2
+      },
+      {
+        "x": 3.5,
+        "y": -1.3
+      }
+    ]
+  },
+  {
+    "id": "finchley-road-wembley-park-bakerloo",
+    "from": "finchley-road",
+    "to": "wembley-park",
+    "validFrom": 1880,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1880,
+        "validTo": 1978
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "wembley-park-harrow-on-the-hill",
+    "from": "wembley-park",
+    "to": "harrow-on-the-hill",
+    "validFrom": 1894,
+    "validTo": 1908,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1894,
+        "validTo": 1908
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 3,
+        "y": -2
+      }
+    ]
+  },
+  {
+    "id": "wembley-park-preston-road",
+    "from": "wembley-park",
+    "to": "preston-road",
+    "validFrom": 1908,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1908
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 3.43,
+        "y": -1.5
+      },
+      {
+        "x": 2.93,
+        "y": -2
+      }
+    ]
+  },
+  {
+    "id": "preston-road-northwick-park",
+    "from": "preston-road",
+    "to": "northwick-park",
+    "validFrom": 1923,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1923
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "northwick-park-harrow-on-the-hill",
+    "from": "northwick-park",
+    "to": "harrow-on-the-hill",
+    "validFrom": 1923,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1923
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "preston-road-harrow-on-the-hill",
+    "from": "preston-road",
+    "to": "harrow-on-the-hill",
+    "validFrom": 1908,
+    "validTo": 1923,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1908,
+        "validTo": 1923
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "baker-street-regent-s-park",
+    "from": "baker-street",
+    "to": "regent-s-park",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "regent-s-park-oxford-circus",
+    "from": "regent-s-park",
+    "to": "oxford-circus",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 10,
+        "y": 6.5
+      },
+      {
+        "x": 12,
+        "y": 8.5
+      }
+    ]
+  },
+  {
+    "id": "oxford-circus-piccadilly-circus",
+    "from": "oxford-circus",
+    "to": "piccadilly-circus",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 12,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "piccadilly-circus-trafalgar-square",
+    "from": "piccadilly-circus",
+    "to": "trafalgar-square",
+    "validFrom": 1906,
+    "validTo": 1978,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906,
+        "validTo": 1978
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "trafalgar-square-embankment",
+    "from": "trafalgar-square",
+    "to": "embankment",
+    "validFrom": 1906,
+    "validTo": 1978,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906,
+        "validTo": 1978
+      },
+      {
+        "line": "northern",
+        "validFrom": 1907,
+        "validTo": 1978
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "piccadilly-circus-charing-cross",
+    "from": "piccadilly-circus",
+    "to": "charing-cross",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "charing-cross-embankment",
+    "from": "charing-cross",
+    "to": "embankment",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1979
+      },
+      {
+        "line": "northern",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "embankment-waterloo",
+    "from": "embankment",
+    "to": "waterloo",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      },
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "waterloo-bank-wc",
+    "from": "waterloo",
+    "to": "bank",
+    "validFrom": 1898,
+    "lines": [
+      {
+        "line": "waterloo-city",
+        "validFrom": 1898
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 15.3,
+        "y": 15.7
+      },
+      {
+        "x": 18.2,
+        "y": 15.7
+      },
+      {
+        "x": 19.7,
+        "y": 14.2
+      },
+      {
+        "x": 19.7,
+        "y": 9.7
+      }
+    ]
+  },
+  {
+    "id": "waterloo-kennington",
+    "from": "waterloo",
+    "to": "kennington",
+    "validFrom": 1926,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "waterloo-lambeth-north",
+    "from": "waterloo",
+    "to": "lambeth-north",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "lambeth-north-elephant-castle",
+    "from": "lambeth-north",
+    "to": "elephant-castle",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hammersmith-district-west-kensington",
+    "from": "hammersmith-district",
+    "to": "west-kensington",
+    "validFrom": 1874,
+    "validTo": 1905,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1874,
+        "validTo": 1905
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 1,
+        "y": 13
+      }
+    ]
+  },
+  {
+    "id": "hammersmith-district-barons-court",
+    "from": "hammersmith-district",
+    "to": "barons-court",
+    "validFrom": 1874,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      },
+      {
+        "line": "district",
+        "validFrom": 1874
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hammersmith-latimer-road",
+    "from": "hammersmith",
+    "to": "latimer-road",
+    "validFrom": 1864,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "barons-court-west-kensington",
+    "from": "barons-court",
+    "to": "west-kensington",
+    "validFrom": 1874,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1874
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "earls-court-barons-court",
+    "from": "earls-court",
+    "to": "barons-court",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 2.6,
+        "y": 12.8
+      },
+      {
+        "x": 1.4,
+        "y": 12.8
+      }
+    ]
+  },
+  {
+    "id": "west-kensington-earls-court",
+    "from": "west-kensington",
+    "to": "earls-court",
+    "validFrom": 1874,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1874
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "earls-court-gloucester-road",
+    "from": "earls-court",
+    "to": "gloucester-road",
+    "validFrom": 1874,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      },
+      {
+        "line": "district",
+        "validFrom": 1874
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "south-kensington-knightsbridge",
+    "from": "south-kensington",
+    "to": "knightsbridge",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "knightsbridge-hyde-park-corner",
+    "from": "knightsbridge",
+    "to": "hyde-park-corner",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hyde-park-corner-green-park",
+    "from": "hyde-park-corner",
+    "to": "green-park",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 9,
+        "y": 11
+      }
+    ]
+  },
+  {
+    "id": "green-park-piccadilly-circus",
+    "from": "green-park",
+    "to": "piccadilly-circus",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "piccadilly-circus-leicester-square",
+    "from": "piccadilly-circus",
+    "to": "leicester-square",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "leicester-square-covent-garden",
+    "from": "leicester-square",
+    "to": "covent-garden",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "holborn-leicester-square",
+    "from": "holborn",
+    "to": "leicester-square",
+    "validFrom": 1906,
+    "validTo": 1907,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906,
+        "validTo": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "covent-garden-holborn",
+    "from": "covent-garden",
+    "to": "holborn",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "holborn-kings-cross-piccadilly",
+    "from": "holborn",
+    "to": "kings-cross",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "holborn-russell-square",
+    "from": "holborn",
+    "to": "russell-square",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "russell-square-kings-cross",
+    "from": "russell-square",
+    "to": "kings-cross",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "green-park-down-street",
+    "from": "green-park",
+    "to": "down-street",
+    "validFrom": 1907,
+    "validTo": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1907,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 9,
+        "y": 11
+      }
+    ]
+  },
+  {
+    "id": "down-street-hyde-park-corner",
+    "from": "down-street",
+    "to": "hyde-park-corner",
+    "validFrom": 1907,
+    "validTo": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1907,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kings-cross-york-road",
+    "from": "kings-cross",
+    "to": "york-road",
+    "validFrom": 1906,
+    "validTo": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 16,
+        "y": 4
+      }
+    ]
+  },
+  {
+    "id": "york-road-caledonian-road",
+    "from": "york-road",
+    "to": "caledonian-road",
+    "validFrom": 1906,
+    "validTo": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "holborn-aldwych",
+    "from": "holborn",
+    "to": "aldwych",
+    "validFrom": 1907,
+    "validTo": 1994,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1907,
+        "validTo": 1994
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kings-cross-caledonian-road",
+    "from": "kings-cross",
+    "to": "caledonian-road",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 16,
+        "y": 4
+      }
+    ]
+  },
+  {
+    "id": "caledonian-road-holloway-road",
+    "from": "caledonian-road",
+    "to": "holloway-road",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "holloway-road-arsenal",
+    "from": "holloway-road",
+    "to": "arsenal",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "arsenal-finsbury-park",
+    "from": "arsenal",
+    "to": "finsbury-park",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1906
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "golders-green-hampstead",
+    "from": "golders-green",
+    "to": "hampstead",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "hampstead-belsize-park",
+    "from": "hampstead",
+    "to": "belsize-park",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "belsize-park-chalk-farm",
+    "from": "belsize-park",
+    "to": "chalk-farm",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "chalk-farm-camden-town",
+    "from": "chalk-farm",
+    "to": "camden-town",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "camden-town-mornington-crescent",
+    "from": "camden-town",
+    "to": "mornington-crescent",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "mornington-crescent-euston",
+    "from": "mornington-crescent",
+    "to": "euston",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "euston-warren-street",
+    "from": "euston",
+    "to": "warren-street",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      },
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ]
+  },
+  {
+    "id": "warren-street-goodge-street",
+    "from": "warren-street",
+    "to": "goodge-street",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "goodge-street-tottenham-court-road",
+    "from": "goodge-street",
+    "to": "tottenham-court-road",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "tottenham-court-road-leicester-square",
+    "from": "tottenham-court-road",
+    "to": "leicester-square",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ]
+  },
+  {
+    "id": "leicester-square-trafalgar-square",
+    "from": "leicester-square",
+    "to": "trafalgar-square",
+    "validFrom": 1907,
+    "validTo": 1978,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907,
+        "validTo": 1978
+      }
+    ]
+  },
+  {
+    "id": "leicester-square-charing-cross",
+    "from": "leicester-square",
+    "to": "charing-cross",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1979
+      }
+    ]
+  },
+  {
+    "id": "kennington-oval",
+    "from": "kennington",
+    "to": "oval",
+    "validFrom": 1890,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ]
+  },
+  {
+    "id": "oval-stockwell",
+    "from": "oval",
+    "to": "stockwell",
+    "validFrom": 1890,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ]
+  },
+  {
+    "id": "stockwell-elephant-castle",
+    "from": "stockwell",
+    "to": "elephant-castle",
+    "validFrom": 1890,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ]
+  },
+  {
+    "id": "camden-town-kings-cross",
+    "from": "camden-town",
+    "to": "kings-cross",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 15,
+        "y": 3
+      },
+      {
+        "x": 15,
+        "y": 3.96
+      },
+      {
+        "x": 16,
+        "y": 4.96
+      }
+    ]
+  },
+  {
+    "id": "kings-cross-angel",
+    "from": "kings-cross",
+    "to": "angel",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "angel-old-street",
+    "from": "angel",
+    "to": "old-street",
+    "validFrom": 1901,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1901
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 19,
+        "y": 5
+      }
+    ]
+  },
+  {
+    "id": "old-street-moorgate",
+    "from": "old-street",
+    "to": "moorgate",
+    "validFrom": 1901,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1901
+      }
+    ]
+  },
+  {
+    "id": "finsbury-park-manor-house",
+    "from": "finsbury-park",
+    "to": "manor-house",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 22,
+        "y": -2
+      }
+    ]
+  },
+  {
+    "id": "manor-house-turnpike-lane",
+    "from": "manor-house",
+    "to": "turnpike-lane",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ]
+  },
+  {
+    "id": "turnpike-lane-wood-green",
+    "from": "turnpike-lane",
+    "to": "wood-green",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "wood-green-bounds-green",
+    "from": "wood-green",
+    "to": "bounds-green",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ]
+  },
+  {
+    "id": "bounds-green-arnos-grove",
+    "from": "bounds-green",
+    "to": "arnos-grove",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ]
+  },
+  {
+    "id": "arnos-grove-southgate",
+    "from": "arnos-grove",
+    "to": "southgate",
+    "validFrom": 1933,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ]
+  },
+  {
+    "id": "southgate-oakwood",
+    "from": "southgate",
+    "to": "oakwood",
+    "validFrom": 1933,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ]
+  },
+  {
+    "id": "oakwood-cockfosters",
+    "from": "oakwood",
+    "to": "cockfosters",
+    "validFrom": 1933,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ]
+  },
+  {
+    "id": "borough-london-bridge",
+    "from": "borough",
+    "to": "london-bridge",
+    "validFrom": 1890,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 20,
+        "y": 15
+      }
+    ]
+  },
+  {
+    "id": "london-bridge-bank",
+    "from": "london-bridge",
+    "to": "bank",
+    "validFrom": 1890,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "moorgate-bank-northern",
+    "from": "moorgate",
+    "to": "bank",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1900
+      }
+    ]
+  },
+  {
+    "id": "bank-london-bridge-northern",
+    "from": "bank",
+    "to": "london-bridge",
+    "validFrom": 1890,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "borough-elephant-castle",
+    "from": "borough",
+    "to": "elephant-castle",
+    "validFrom": 1890,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ]
+  },
+  {
+    "id": "kennington-elephant-castle",
+    "from": "kennington",
+    "to": "elephant-castle",
+    "validFrom": 1890,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1890
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "walthamstow-central-blackhorse-road",
+    "from": "walthamstow-central",
+    "to": "blackhorse-road",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "blackhorse-road-tottenham-hale",
+    "from": "blackhorse-road",
+    "to": "tottenham-hale",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "tottenham-hale-seven-sisters",
+    "from": "tottenham-hale",
+    "to": "seven-sisters",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "seven-sisters-finsbury-park",
+    "from": "seven-sisters",
+    "to": "finsbury-park",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 22.1,
+        "y": -2
+      },
+      {
+        "x": 21.1,
+        "y": -1
+      }
+    ]
+  },
+  {
+    "id": "finsbury-park-highbury-islington",
+    "from": "finsbury-park",
+    "to": "highbury-islington",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 21,
+        "y": -0.9
+      },
+      {
+        "x": 20.3,
+        "y": -0.2
+      }
+    ]
+  },
+  {
+    "id": "highbury-islington-kings-cross",
+    "from": "highbury-islington",
+    "to": "kings-cross",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 20.3,
+        "y": 3
+      },
+      {
+        "x": 19.3,
+        "y": 4
+      },
+      {
+        "x": 17,
+        "y": 4
+      }
+    ]
+  },
+  {
+    "id": "kings-cross-euston",
+    "from": "kings-cross",
+    "to": "euston",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 15.96,
+        "y": 5
+      },
+      {
+        "x": 14.96,
+        "y": 4
+      }
+    ]
+  },
+  {
+    "id": "warren-street-oxford-circus",
+    "from": "warren-street",
+    "to": "oxford-circus",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 13.95,
+        "y": 6.05
+      },
+      {
+        "x": 13.95,
+        "y": 7
+      }
+    ]
+  },
+  {
+    "id": "oxford-circus-green-park",
+    "from": "oxford-circus",
+    "to": "green-park",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "green-park-victoria",
+    "from": "green-park",
+    "to": "victoria",
+    "validFrom": 1968,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1968
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "victoria-pimlico",
+    "from": "victoria",
+    "to": "pimlico",
+    "validFrom": 1971,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1971
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "pimlico-vauxhall",
+    "from": "pimlico",
+    "to": "vauxhall",
+    "validFrom": 1971,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1971
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "vauxhall-stockwell",
+    "from": "vauxhall",
+    "to": "stockwell",
+    "validFrom": 1971,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1971
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "stockwell-brixton",
+    "from": "stockwell",
+    "to": "brixton",
+    "validFrom": 1971,
+    "lines": [
+      {
+        "line": "victoria",
+        "validFrom": 1971
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "finchley-road-baker-street",
+    "from": "finchley-road",
+    "to": "baker-street",
+    "validFrom": 1940,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1940
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 7,
+        "y": 2.2
+      },
+      {
+        "x": 9.3,
+        "y": 4.5
+      }
+    ]
+  },
+  {
+    "id": "baker-street-bond-street",
+    "from": "baker-street",
+    "to": "bond-street",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 9.8,
+        "y": 5.5
+      },
+      {
+        "x": 9.8,
+        "y": 8.5
+      }
+    ]
+  },
+  {
+    "id": "bond-street-green-park",
+    "from": "bond-street",
+    "to": "green-park",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "green-park-charing-cross",
+    "from": "green-park",
+    "to": "charing-cross",
+    "validFrom": 1979,
+    "validTo": 1998,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979,
+        "validTo": 1998
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 11,
+        "y": 12
+      }
+    ]
+  },
+  {
+    "id": "stanmore-canons-park",
+    "from": "stanmore",
+    "to": "canons-park",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1932,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "canons-park-queensbury",
+    "from": "canons-park",
+    "to": "queensbury",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1932,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kingsbury-canons-park",
+    "from": "kingsbury",
+    "to": "canons-park",
+    "validFrom": 1932,
+    "validTo": 1934,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1932,
+        "validTo": 1933
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "queensbury-kingsbury",
+    "from": "queensbury",
+    "to": "kingsbury",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1932,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kingsbury-wembley-park",
+    "from": "kingsbury",
+    "to": "wembley-park",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1932,
+        "validTo": 1939
+      },
+      {
+        "line": "bakerloo",
+        "validFrom": 1939,
+        "validTo": 1979
+      },
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 3,
+        "y": -2
+      }
+    ]
+  },
+  {
+    "id": "wembley-park-neasden",
+    "from": "wembley-park",
+    "to": "neasden",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "neasden-dollis-hill",
+    "from": "neasden",
+    "to": "dollis-hill",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "dollis-hill-willesden-green",
+    "from": "dollis-hill",
+    "to": "willesden-green",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "willesden-green-kilburn",
+    "from": "willesden-green",
+    "to": "kilburn",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kilburn-west-hampstead",
+    "from": "kilburn",
+    "to": "west-hampstead",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "west-hampstead-finchley-road",
+    "from": "west-hampstead",
+    "to": "finchley-road",
+    "validFrom": 1979,
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1979
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "green-park-westminster",
+    "from": "green-park",
+    "to": "westminster",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": []
+  },
+  {
+    "id": "westminster-waterloo",
+    "from": "westminster",
+    "to": "waterloo",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": []
+  },
+  {
+    "id": "waterloo-southwark",
+    "from": "waterloo",
+    "to": "southwark",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": []
+  },
+  {
+    "id": "southwark-london-bridge",
+    "from": "southwark",
+    "to": "london-bridge",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": [
+      {
+        "x": 18.2,
+        "y": 16
+      },
+      {
+        "x": 19.7,
+        "y": 14.5
+      }
+    ]
+  },
+  {
+    "id": "london-bridge-bermondsey",
+    "from": "london-bridge",
+    "to": "bermondsey",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": []
+  },
+  {
+    "id": "bermondsey-canada-water",
+    "from": "bermondsey",
+    "to": "canada-water",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": [
+      {
+        "x": 21.5,
+        "y": 16
+      }
+    ]
+  },
+  {
+    "id": "canada-water-canary-wharf",
+    "from": "canada-water",
+    "to": "canary-wharf",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": []
+  },
+  {
+    "id": "canary-wharf-north-greenwich",
+    "from": "canary-wharf",
+    "to": "north-greenwich",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": [
+      {
+        "x": 27,
+        "y": 17
+      }
+    ]
+  },
+  {
+    "id": "north-greenwich-canning-town",
+    "from": "north-greenwich",
+    "to": "canning-town",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": [
+      {
+        "x": 30,
+        "y": 15
+      }
+    ]
+  },
+  {
+    "id": "canning-town-west-ham",
+    "from": "canning-town",
+    "to": "west-ham",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": []
+  },
+  {
+    "id": "west-ham-stratford",
+    "from": "west-ham",
+    "to": "stratford",
+    "lines": [
+      {
+        "line": "jubilee",
+        "validFrom": 1999
+      }
+    ],
+    "validFrom": 1999,
+    "waypoints": []
+  },
+  {
+    "id": "paddington-elizabeth-bond-street",
+    "from": "paddington-elizabeth",
+    "to": "bond-street",
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "validFrom": 2022,
+    "waypoints": [
+      {
+        "x": 4.4,
+        "y": 5.6
+      },
+      {
+        "x": 7,
+        "y": 8
+      },
+      {
+        "x": 9,
+        "y": 8
+      }
+    ]
+  },
+  {
+    "id": "bond-street-tottenham-court-road",
+    "from": "bond-street",
+    "to": "tottenham-court-road",
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "validFrom": 2022,
+    "waypoints": [
+      {
+        "x": 10.5,
+        "y": 8.8
+      },
+      {
+        "x": 13.5,
+        "y": 8.8
+      }
+    ]
+  },
+  {
+    "id": "tottenham-court-road-farringdon-elizabeth",
+    "from": "tottenham-court-road",
+    "to": "farringdon-elizabeth",
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "validFrom": 2022,
+    "waypoints": []
+  },
+  {
+    "id": "farringdon-elizabeth-liverpool-street-elizabeth",
+    "from": "farringdon-elizabeth",
+    "to": "liverpool-street-elizabeth",
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "validFrom": 2022,
+    "waypoints": [
+      {
+        "x": 20,
+        "y": 7.5
+      }
+    ]
+  },
+  {
+    "id": "liverpool-street-elizabeth-whitechapel",
+    "from": "liverpool-street-elizabeth",
+    "to": "whitechapel",
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "validFrom": 2022,
+    "waypoints": []
+  },
+  {
+    "id": "whitechapel-canary-wharf",
+    "from": "whitechapel",
+    "to": "canary-wharf",
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "validFrom": 2022,
+    "waypoints": [
+      {
+        "x": 26,
+        "y": 8
+      }
+    ]
+  },
+  {
+    "id": "canary-wharf-custom-house",
+    "from": "canary-wharf",
+    "to": "custom-house",
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "validFrom": 2022,
+    "waypoints": []
+  },
+  {
+    "id": "custom-house-abbey-wood",
+    "from": "custom-house",
+    "to": "abbey-wood",
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "validFrom": 2022,
+    "waypoints": []
+  },
+  {
+    "id": "latimer-road-shepherd-bush-met",
+    "from": "latimer-road",
+    "to": "shepherd-bush-met",
+    "validFrom": 1864,
+    "validTo": 1914,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1914
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "shepherd-bush-met-hammersmith",
+    "from": "shepherd-bush-met",
+    "to": "hammersmith",
+    "validFrom": 1864,
+    "validTo": 1914,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1864,
+        "validTo": 1914
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "latimer-road-wood-lane",
+    "from": "latimer-road",
+    "to": "wood-lane",
+    "validFrom": 2008,
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 2008
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "wood-lane-shepherd-bush-market",
+    "from": "wood-lane",
+    "to": "shepherd-bush-market",
+    "validFrom": 2008,
+    "lines": [
+      {
+        "line": "hammersmith-city",
+        "validFrom": 2008
+      },
+      {
+        "line": "circle",
+        "validFrom": 2009
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "shepherd-bush-wood-lane-original",
+    "from": "shepherd-bush",
+    "to": "wood-lane-original",
+    "validFrom": 1908,
+    "validTo": 1946,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1908,
+        "validTo": 1946
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "latimer-road-shepherd-bush-market",
+    "from": "latimer-road",
+    "to": "shepherd-bush-market",
+    "validFrom": 1914,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 2009
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1914,
+        "validTo": 1989
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "shepherd-bush-market-goldhawk-road",
+    "from": "shepherd-bush-market",
+    "to": "goldhawk-road",
+    "validFrom": 1914,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 2009
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1914,
+        "validTo": 1989
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "goldhawk-road-hammersmith",
+    "from": "goldhawk-road",
+    "to": "hammersmith",
+    "validFrom": 1914,
+    "lines": [
+      {
+        "line": "circle",
+        "validFrom": 2009
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1914,
+        "validTo": 1989
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "high-street-kensington-earls-court",
+    "from": "high-street-kensington",
+    "to": "earls-court",
+    "validFrom": 1871,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1871
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 3.975,
+        "y": 11.025
+      },
+      {
+        "x": 3.975,
+        "y": 12
+      }
+    ]
+  },
+  {
+    "id": "liverpool-street-elizabeth-bethnal-green",
+    "from": "liverpool-street-elizabeth",
+    "to": "bethnal-green",
+    "validFrom": 1946,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1946
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 23,
+        "y": 6.5
+      }
+    ]
+  },
+  {
+    "id": "bethnal-green-mile-end-central",
+    "from": "bethnal-green",
+    "to": "mile-end-central",
+    "validFrom": 1946,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1946
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 26.7,
+        "y": 7
+      }
+    ]
+  },
+  {
+    "id": "whitechapel-stratford",
+    "from": "whitechapel",
+    "to": "stratford",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 26.5,
+        "y": 6.5
+      },
+      {
+        "x": 28.53,
+        "y": 6.5
+      },
+      {
+        "x": 30,
+        "y": 5.03
+      }
+    ]
+  },
+  {
+    "id": "mile-end-central-stratford",
+    "from": "mile-end-central",
+    "to": "stratford",
+    "validFrom": 1946,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1946
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 27.97,
+        "y": 7
+      },
+      {
+        "x": 29.97,
+        "y": 5
+      }
+    ]
+  },
+  {
+    "id": "stratford-leyton",
+    "from": "stratford",
+    "to": "leyton",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "leyton-leytonstone",
+    "from": "leyton",
+    "to": "leytonstone",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 32,
+        "y": 3
+      }
+    ]
+  },
+  {
+    "id": "bank-liverpool-street-elizabeth",
+    "from": "bank",
+    "to": "liverpool-street-elizabeth",
+    "validFrom": 1912,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1912
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 20.5,
+        "y": 9
+      }
+    ]
+  },
+  {
+    "id": "baker-street-marylebone",
+    "from": "baker-street",
+    "to": "marylebone",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 9,
+        "y": 4.5
+      }
+    ]
+  },
+  {
+    "id": "marylebone-edgware-road-bakerloo",
+    "from": "marylebone",
+    "to": "edgware-road-bakerloo",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "edgware-road-bakerloo-paddington-bakerloo",
+    "from": "edgware-road-bakerloo",
+    "to": "paddington-bakerloo",
+    "validFrom": 1913,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1913
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "paddington-bakerloo-warwick-avenue",
+    "from": "paddington-bakerloo",
+    "to": "warwick-avenue",
+    "validFrom": 1915,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "warwick-avenue-maida-vale",
+    "from": "warwick-avenue",
+    "to": "maida-vale",
+    "validFrom": 1915,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 1.5,
+        "y": 4.5
+      }
+    ]
+  },
+  {
+    "id": "maida-vale-kilburn-park",
+    "from": "maida-vale",
+    "to": "kilburn-park",
+    "validFrom": 1915,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kilburn-park-queens-park",
+    "from": "kilburn-park",
+    "to": "queens-park",
+    "validFrom": 1915,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "queens-park-kensal-green",
+    "from": "queens-park",
+    "to": "kensal-green",
+    "validFrom": 1916,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1916
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 0,
+        "y": 3
+      }
+    ]
+  },
+  {
+    "id": "kensal-green-willesden-junction",
+    "from": "kensal-green",
+    "to": "willesden-junction",
+    "validFrom": 1915,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1915
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "willesden-junction-harlesden",
+    "from": "willesden-junction",
+    "to": "harlesden",
+    "validFrom": 1917,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "harlesden-stonebridge-park",
+    "from": "harlesden",
+    "to": "stonebridge-park",
+    "validFrom": 1917,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "stonebridge-park-wembley-central",
+    "from": "stonebridge-park",
+    "to": "wembley-central",
+    "validFrom": 1917,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "wembley-central-north-wembley",
+    "from": "wembley-central",
+    "to": "north-wembley",
+    "validFrom": 1917,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "north-wembley-south-kenton",
+    "from": "north-wembley",
+    "to": "south-kenton",
+    "validFrom": 1933,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1933
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "north-wembley-kenton",
+    "from": "north-wembley",
+    "to": "kenton",
+    "validFrom": 1917,
+    "validTo": 1933,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917,
+        "validTo": 1933
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "south-kenton-kenton",
+    "from": "south-kenton",
+    "to": "kenton",
+    "validFrom": 1933,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1933
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kenton-harrow-wealdstone",
+    "from": "kenton",
+    "to": "harrow-wealdstone",
+    "validFrom": 1917,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1917
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "paddington-bakerloo-edgware-road-bakerloo",
+    "from": "paddington-bakerloo",
+    "to": "edgware-road-bakerloo",
+    "validFrom": 1907,
+    "validTo": 1913,
+    "lines": [
+      {
+        "line": "bakerloo",
+        "validFrom": 1907,
+        "validTo": 1913
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "earls-court-west-brompton",
+    "from": "earls-court",
+    "to": "west-brompton",
+    "validFrom": 1871,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1871
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 2.5,
+        "y": 13.5
+      }
+    ]
+  },
+  {
+    "id": "west-brompton-fulham-broadway",
+    "from": "west-brompton",
+    "to": "fulham-broadway",
+    "validFrom": 1880,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1880
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "fulham-broadway-parsons-green",
+    "from": "fulham-broadway",
+    "to": "parsons-green",
+    "validFrom": 1880,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1880
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "parsons-green-putney-bridge",
+    "from": "parsons-green",
+    "to": "putney-bridge",
+    "validFrom": 1880,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1880
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "putney-bridge-east-putney",
+    "from": "putney-bridge",
+    "to": "east-putney",
+    "validFrom": 1889,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1889
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "east-putney-southfields",
+    "from": "east-putney",
+    "to": "southfields",
+    "validFrom": 1889,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1889
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "southfields-wimbledon-park",
+    "from": "southfields",
+    "to": "wimbledon-park",
+    "validFrom": 1889,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1889
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "wimbledon-park-wimbledon",
+    "from": "wimbledon-park",
+    "to": "wimbledon",
+    "validFrom": 1889,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1889
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hammersmith-district-ravenscourt-park",
+    "from": "hammersmith-district",
+    "to": "ravenscourt-park",
+    "validFrom": 1877,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "ravenscourt-park-stamford-brook",
+    "from": "ravenscourt-park",
+    "to": "stamford-brook",
+    "validFrom": 1912,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1912
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "ravenscourt-park-turnham-green",
+    "from": "ravenscourt-park",
+    "to": "turnham-green",
+    "validFrom": 1877,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "stamford-brook-turnham-green",
+    "from": "stamford-brook",
+    "to": "turnham-green",
+    "validFrom": 1912,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1912
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "turnham-green-gunnersbury",
+    "from": "turnham-green",
+    "to": "gunnersbury",
+    "validFrom": 1877,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -3.5,
+        "y": 13
+      },
+      {
+        "x": -4,
+        "y": 13.5
+      }
+    ]
+  },
+  {
+    "id": "gunnersbury-kew-gardens",
+    "from": "gunnersbury",
+    "to": "kew-gardens",
+    "validFrom": 1877,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kew-gardens-richmond",
+    "from": "kew-gardens",
+    "to": "richmond",
+    "validFrom": 1877,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1877
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "turnham-green-chiswick-park",
+    "from": "turnham-green",
+    "to": "chiswick-park",
+    "validFrom": 1879,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1879
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hammersmith-district-turnham-green",
+    "from": "hammersmith-district",
+    "to": "turnham-green",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -0.5,
+        "y": 12.8
+      },
+      {
+        "x": -2.5,
+        "y": 12.8
+      }
+    ]
+  },
+  {
+    "id": "turnham-green-acton-town",
+    "from": "turnham-green",
+    "to": "acton-town",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -3.5,
+        "y": 12.8
+      },
+      {
+        "x": -5.2,
+        "y": 12.8
+      }
+    ]
+  },
+  {
+    "id": "chiswick-park-acton-town",
+    "from": "chiswick-park",
+    "to": "acton-town",
+    "validFrom": 1879,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1879
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "acton-town-ealing-common",
+    "from": "acton-town",
+    "to": "ealing-common",
+    "validFrom": 1879,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1879
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -6.5,
+        "y": 13
+      }
+    ]
+  },
+  {
+    "id": "acton-town-ealing-common-piccadilly",
+    "from": "acton-town",
+    "to": "ealing-common-piccadilly",
+    "validFrom": 1879,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1906,
+        "validTo": 1931
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -6.2,
+        "y": 12.7
+      }
+    ]
+  },
+  {
+    "id": "ealing-common-ealing-broadway",
+    "from": "ealing-common",
+    "to": "ealing-broadway",
+    "validFrom": 1879,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1879
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -6.5,
+        "y": 10.05
+      },
+      {
+        "x": -7.03,
+        "y": 10.05
+      }
+    ]
+  },
+  {
+    "id": "liverpool-street-aldgate-east",
+    "from": "liverpool-street",
+    "to": "aldgate-east",
+    "validFrom": 1936,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 22.1,
+        "y": 7.92
+      },
+      {
+        "x": 23.9,
+        "y": 7.93
+      },
+      {
+        "x": 24.03,
+        "y": 7.75
+      }
+    ]
+  },
+  {
+    "id": "tower-hill-aldgate-east",
+    "from": "tower-hill",
+    "to": "aldgate-east",
+    "validFrom": 1884,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 23.05,
+        "y": 10.05
+      },
+      {
+        "x": 23.05,
+        "y": 8.7
+      }
+    ]
+  },
+  {
+    "id": "aldgate-east-whitechapel",
+    "from": "aldgate-east",
+    "to": "whitechapel",
+    "validFrom": 1884,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1884
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 24.33,
+        "y": 7.55
+      },
+      {
+        "x": 25.45,
+        "y": 7.55
+      }
+    ]
+  },
+  {
+    "id": "whitechapel-stepney-green",
+    "from": "whitechapel",
+    "to": "stepney-green",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "stepney-green-mile-end",
+    "from": "stepney-green",
+    "to": "mile-end",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "mile-end-bow-road",
+    "from": "mile-end",
+    "to": "bow-road",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "bow-road-bromley-by-bow",
+    "from": "bow-road",
+    "to": "bromley-by-bow",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1989
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "bromley-by-bow-west-ham",
+    "from": "bromley-by-bow",
+    "to": "west-ham",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "west-ham-plaistow",
+    "from": "west-ham",
+    "to": "plaistow",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "plaistow-upton-park",
+    "from": "plaistow",
+    "to": "upton-park",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "upton-park-east-ham",
+    "from": "upton-park",
+    "to": "east-ham",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "east-ham-barking",
+    "from": "east-ham",
+    "to": "barking",
+    "validFrom": 1902,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1936,
+        "validTo": 1990
+      },
+      {
+        "line": "hammersmith-city",
+        "validFrom": 1990
+      },
+      {
+        "line": "district",
+        "validFrom": 1902
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "shepherd-bush-white-city",
+    "from": "shepherd-bush",
+    "to": "white-city",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "shepherd-bush-east-acton",
+    "from": "shepherd-bush",
+    "to": "east-acton",
+    "validFrom": 1920,
+    "validTo": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1920,
+        "validTo": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "white-city-east-acton",
+    "from": "white-city",
+    "to": "east-acton",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "east-acton-north-acton",
+    "from": "east-acton",
+    "to": "north-acton",
+    "validFrom": 1923,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1923
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "north-acton-west-acton",
+    "from": "north-acton",
+    "to": "west-acton",
+    "validFrom": 1923,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1923
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "acton-town-south-ealing",
+    "from": "acton-town",
+    "to": "south-ealing",
+    "validFrom": 1883,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1883,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1935
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -6,
+        "y": 12.8
+      },
+      {
+        "x": -7.3,
+        "y": 12.8
+      }
+    ]
+  },
+  {
+    "id": "acton-town-northfields",
+    "from": "acton-town",
+    "to": "northfields",
+    "validFrom": 1933,
+    "validTo": 1934,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933,
+        "validTo": 1934
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -6,
+        "y": 12.75
+      },
+      {
+        "x": -7.5,
+        "y": 12.75
+      },
+      {
+        "x": -8,
+        "y": 13.25
+      }
+    ]
+  },
+  {
+    "id": "south-ealing-northfields",
+    "from": "south-ealing",
+    "to": "northfields",
+    "validFrom": 1908,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1908,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1935
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "south-ealing-boston-manor",
+    "from": "south-ealing",
+    "to": "boston-manor",
+    "validFrom": 1883,
+    "validTo": 1907,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1883,
+        "validTo": 1907
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "boston-manor-hounslow-central",
+    "from": "boston-manor",
+    "to": "hounslow-central",
+    "validFrom": 1883,
+    "validTo": 1908,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1883,
+        "validTo": 1908
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "boston-manor-hounslow-west",
+    "from": "boston-manor",
+    "to": "hounslow-west",
+    "validFrom": 1884,
+    "validTo": 1885,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1884,
+        "validTo": 1885
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "northfields-boston-manor",
+    "from": "northfields",
+    "to": "boston-manor",
+    "validFrom": 1883,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1883,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "boston-manor-hounslow-east",
+    "from": "boston-manor",
+    "to": "hounslow-east",
+    "validFrom": 1883,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1833,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933,
+        "validTo": 1934
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "boston-manor-osterley",
+    "from": "boston-manor",
+    "to": "osterley",
+    "validFrom": 1883,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1883,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1934
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "osterley-hounslow-east",
+    "from": "osterley",
+    "to": "hounslow-east",
+    "validFrom": 1909,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1909,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1934
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hounslow-east-hounslow-central",
+    "from": "hounslow-east",
+    "to": "hounslow-central",
+    "validFrom": 1886,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1886,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hounslow-central-hounslow-west",
+    "from": "hounslow-central",
+    "to": "hounslow-west",
+    "validFrom": 1884,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1884,
+        "validTo": 1964
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hounslow-west-hatton-cross",
+    "from": "hounslow-west",
+    "to": "hatton-cross",
+    "validFrom": 1975,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1975
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hatton-cross-heathrow-terminals-2-3",
+    "from": "hatton-cross",
+    "to": "heathrow-terminals-2-3",
+    "validFrom": 1977,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1977
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "heathrow-terminals-2-3-heathrow-terminal-5",
+    "from": "heathrow-terminals-2-3",
+    "to": "heathrow-terminal-5",
+    "validFrom": 2008,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 2008
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -13.5,
+        "y": 19
+      }
+    ]
+  },
+  {
+    "id": "ealing-common-piccadilly-north-ealing",
+    "from": "ealing-common-piccadilly",
+    "to": "north-ealing",
+    "validFrom": 1903,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "west-acton-ealing-broadway",
+    "from": "west-acton",
+    "to": "ealing-broadway",
+    "validFrom": 1923,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1920
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "north-ealing-park-royal",
+    "from": "north-ealing",
+    "to": "park-royal",
+    "validFrom": 1903,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "north-ealing-alperton",
+    "from": "north-ealing",
+    "to": "alperton",
+    "validFrom": 1903,
+    "validTo": 1930,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1930
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "park-royal-alperton",
+    "from": "park-royal",
+    "to": "alperton",
+    "validFrom": 1903,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "alperton-sudbury-town",
+    "from": "alperton",
+    "to": "sudbury-town",
+    "validFrom": 1903,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "sudbury-town-sudbury-hill",
+    "from": "sudbury-town",
+    "to": "sudbury-hill",
+    "validFrom": 1903,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "sudbury-hill-south-harrow",
+    "from": "sudbury-hill",
+    "to": "south-harrow",
+    "validFrom": 1903,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1903,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "south-harrow-rayners-lane",
+    "from": "south-harrow",
+    "to": "rayners-lane",
+    "validFrom": 1910,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1932
+      },
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -6.2,
+        "y": -3.16
+      },
+      {
+        "x": -6.54,
+        "y": -3.5
+      }
+    ]
+  },
+  {
+    "id": "rayners-lane-eastcote",
+    "from": "rayners-lane",
+    "to": "eastcote",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1906
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "eastcote-ruislip-manor",
+    "from": "eastcote",
+    "to": "ruislip-manor",
+    "validFrom": 1906,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1906
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -7.5,
+        "y": -4.5
+      }
+    ]
+  },
+  {
+    "id": "ruislip-manor-ruislip",
+    "from": "ruislip-manor",
+    "to": "ruislip",
+    "validFrom": 1904,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1904
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "ickenham-uxbridge",
+    "from": "ickenham",
+    "to": "uxbridge",
+    "validFrom": 1904,
+    "validTo": 1922,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1904,
+        "validTo": 1922
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "ruislip-eastcote",
+    "from": "ruislip",
+    "to": "eastcote",
+    "validFrom": 1904,
+    "validTo": 1911,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1904,
+        "validTo": 1911
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -7.5,
+        "y": -4.5
+      }
+    ]
+  },
+  {
+    "id": "ruislip-ickenham",
+    "from": "ruislip",
+    "to": "ickenham",
+    "validFrom": 1904,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1904
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "ickenham-hillingdon",
+    "from": "ickenham",
+    "to": "hillingdon",
+    "validFrom": 1904,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1904
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hillingdon-uxbridge",
+    "from": "hillingdon",
+    "to": "uxbridge",
+    "validFrom": 1904,
+    "lines": [
+      {
+        "line": "piccadilly",
+        "validFrom": 1933
+      },
+      {
+        "line": "metropolitan",
+        "validFrom": 1904
+      },
+      {
+        "line": "district",
+        "validFrom": 1910,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "harrow-on-the-hill-west-harrow",
+    "from": "harrow-on-the-hill",
+    "to": "west-harrow",
+    "validFrom": 1904,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1904
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "west-harrow-rayners-lane",
+    "from": "west-harrow",
+    "to": "rayners-lane",
+    "validFrom": 1904,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1904
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -4.96,
+        "y": -2
+      },
+      {
+        "x": -6.46,
+        "y": -3.5
+      }
+    ]
+  },
+  {
+    "id": "harrow-on-the-hill-rayners-lane",
+    "from": "harrow-on-the-hill",
+    "to": "rayners-lane",
+    "validFrom": 1904,
+    "validTo": 1912,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1904,
+        "validTo": 1912
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -5,
+        "y": -2
+      }
+    ]
+  },
+  {
+    "id": "harrow-on-the-hill-north-harrow",
+    "from": "harrow-on-the-hill",
+    "to": "north-harrow",
+    "validFrom": 1885,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1885
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -2.5,
+        "y": -2
+      }
+    ]
+  },
+  {
+    "id": "north-harrow-pinner",
+    "from": "north-harrow",
+    "to": "pinner",
+    "validFrom": 1885,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1885
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "pinner-northwood-hills",
+    "from": "pinner",
+    "to": "northwood-hills",
+    "validFrom": 1885,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1885
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "northwood-hills-northwood",
+    "from": "northwood-hills",
+    "to": "northwood",
+    "validFrom": 1887,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1887
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "northwood-moor-park",
+    "from": "northwood",
+    "to": "moor-park",
+    "validFrom": 1887,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1887
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "moor-park-rickmansworth",
+    "from": "moor-park",
+    "to": "rickmansworth",
+    "validFrom": 1887,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1887
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "rickmansworth-chorleywood",
+    "from": "rickmansworth",
+    "to": "chorleywood",
+    "validFrom": 1889,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1889
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "chorleywood-chalfont-latimer",
+    "from": "chorleywood",
+    "to": "chalfont-latimer",
+    "validFrom": 1889,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1889
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -7.5,
+        "y": -7
+      }
+    ]
+  },
+  {
+    "id": "chalfont-latimer-amersham",
+    "from": "chalfont-latimer",
+    "to": "amersham",
+    "validFrom": 1892,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1892
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "chalfont-latimer-chesham",
+    "from": "chalfont-latimer",
+    "to": "chesham",
+    "validFrom": 1889,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1889
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -10.5,
+        "y": -7
+      }
+    ]
+  },
+  {
+    "id": "moor-park-croxley",
+    "from": "moor-park",
+    "to": "croxley",
+    "validFrom": 1925,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1925
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -6,
+        "y": -5.5
+      }
+    ]
+  },
+  {
+    "id": "croxley-watford-met",
+    "from": "croxley",
+    "to": "watford-met",
+    "validFrom": 1925,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1925
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "harrow-on-the-hill-pinner",
+    "from": "harrow-on-the-hill",
+    "to": "pinner",
+    "validFrom": 1885,
+    "validTo": 1914,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1885,
+        "validTo": 1914
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -2.5,
+        "y": -2
+      }
+    ]
+  },
+  {
+    "id": "pinner-northwood",
+    "from": "pinner",
+    "to": "northwood",
+    "validFrom": 1885,
+    "validTo": 1932,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1885,
+        "validTo": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "northwood-rickmansworth",
+    "from": "northwood",
+    "to": "rickmansworth",
+    "validFrom": 1887,
+    "validTo": 1909,
+    "lines": [
+      {
+        "line": "metropolitan",
+        "validFrom": 1887,
+        "validTo": 1909
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "stockwell-clapham-north",
+    "from": "stockwell",
+    "to": "clapham-north",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "clapham-north-clapham-common",
+    "from": "clapham-north",
+    "to": "clapham-common",
+    "validFrom": 1900,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1900
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "clapham-common-clapham-south",
+    "from": "clapham-common",
+    "to": "clapham-south",
+    "validFrom": 1926,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "clapham-south-balham",
+    "from": "clapham-south",
+    "to": "balham",
+    "validFrom": 1926,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "balham-tooting-bec",
+    "from": "balham",
+    "to": "tooting-bec",
+    "validFrom": 1926,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "tooting-bec-tooting-broadway",
+    "from": "tooting-bec",
+    "to": "tooting-broadway",
+    "validFrom": 1926,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "tooting-broadway-colliers-wood",
+    "from": "tooting-broadway",
+    "to": "colliers-wood",
+    "validFrom": 1926,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "colliers-wood-south-wimbledon",
+    "from": "colliers-wood",
+    "to": "south-wimbledon",
+    "validFrom": 1926,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "south-wimbledon-morden",
+    "from": "south-wimbledon",
+    "to": "morden",
+    "validFrom": 1926,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1926
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "kennington-nine-elms",
+    "from": "kennington",
+    "to": "nine-elms",
+    "validFrom": 2021,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 2021
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 14.5,
+        "y": 20.5
+      },
+      {
+        "x": 13.5,
+        "y": 20.5
+      },
+      {
+        "x": 11,
+        "y": 18
+      }
+    ]
+  },
+  {
+    "id": "nine-elms-battersea-power-station",
+    "from": "nine-elms",
+    "to": "battersea-power-station",
+    "validFrom": 2021,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 2021
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "paddington-elizabeth-acton-main-line",
+    "from": "paddington-elizabeth",
+    "to": "acton-main-line",
+    "validFrom": 2018,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -1.1,
+        "y": 5.6
+      }
+    ]
+  },
+  {
+    "id": "acton-main-line-ealing-broadway",
+    "from": "acton-main-line",
+    "to": "ealing-broadway",
+    "validFrom": 2018,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -5.5,
+        "y": 9.95
+      },
+      {
+        "x": -7.03,
+        "y": 9.95
+      }
+    ]
+  },
+  {
+    "id": "ealing-broadway-west-ealing",
+    "from": "ealing-broadway",
+    "to": "west-ealing",
+    "validFrom": 2018,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "west-ealing-hanwell",
+    "from": "west-ealing",
+    "to": "hanwell",
+    "validFrom": 2018,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hanwell-southall",
+    "from": "hanwell",
+    "to": "southall",
+    "validFrom": 2018,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "southall-hayes-harlington",
+    "from": "southall",
+    "to": "hayes-harlington",
+    "validFrom": 2018,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2018
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hayes-harlington-heathrow-terminals-2-3",
+    "from": "hayes-harlington",
+    "to": "heathrow-terminals-2-3",
+    "validFrom": 1998,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 1998
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -12,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "heathrow-terminals-2-3-heathrow-terminal-4",
+    "from": "heathrow-terminals-2-3",
+    "to": "heathrow-terminal-4",
+    "validFrom": 1998,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 1998
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -12,
+        "y": 19.5
+      }
+    ]
+  },
+  {
+    "id": "heathrow-terminal-4-heathrow-terminal-5",
+    "from": "heathrow-terminal-4",
+    "to": "heathrow-terminal-5",
+    "validFrom": 2008,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2008
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "north-acton-hanger-lane",
+    "from": "north-acton",
+    "to": "hanger-lane",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -2,
+        "y": 10
+      }
+    ]
+  },
+  {
+    "id": "hanger-lane-perivale",
+    "from": "hanger-lane",
+    "to": "perivale",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "perivale-greenford",
+    "from": "perivale",
+    "to": "greenford",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "greenford-northolt",
+    "from": "greenford",
+    "to": "northolt",
+    "validFrom": 1948,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "waypoints": [
+      {
+        "x": -9.3,
+        "y": 2.7
+      }
+    ]
+  },
+  {
+    "id": "northolt-south-ruislip",
+    "from": "northolt",
+    "to": "south-ruislip",
+    "validFrom": 1948,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "south-ruislip-ruislip-gardens",
+    "from": "south-ruislip",
+    "to": "ruislip-gardens",
+    "validFrom": 1948,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "ruislip-gardens-west-ruislip",
+    "from": "ruislip-gardens",
+    "to": "west-ruislip",
+    "validFrom": 1948,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "greenford-south-ruislip-bypass",
+    "from": "greenford",
+    "to": "south-ruislip",
+    "validFrom": 1947,
+    "validTo": 1948,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947,
+        "validTo": 1948
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "camden-town-kentish-town",
+    "from": "camden-town",
+    "to": "kentish-town",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 16,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "id": "kentish-town-tufnell-park",
+    "from": "kentish-town",
+    "to": "tufnell-park",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "tufnell-park-archway",
+    "from": "tufnell-park",
+    "to": "archway",
+    "validFrom": 1907,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1907
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "archway-east-finchley-bypass",
+    "from": "archway",
+    "to": "east-finchley",
+    "validFrom": 1939,
+    "validTo": 1940,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1939,
+        "validTo": 1940
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "archway-highgate",
+    "from": "archway",
+    "to": "highgate",
+    "validFrom": 1941,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1941
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "highgate-east-finchley",
+    "from": "highgate",
+    "to": "east-finchley",
+    "validFrom": 1941,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1941
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "east-finchley-finchley-central",
+    "from": "east-finchley",
+    "to": "finchley-central",
+    "validFrom": 1940,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "finchley-central-west-finchley",
+    "from": "finchley-central",
+    "to": "west-finchley",
+    "validFrom": 1940,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "west-finchley-woodside-park",
+    "from": "west-finchley",
+    "to": "woodside-park",
+    "validFrom": 1940,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "woodside-park-totteridge-whetstone",
+    "from": "woodside-park",
+    "to": "totteridge-whetstone",
+    "validFrom": 1940,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "totteridge-whetstone-high-barnet",
+    "from": "totteridge-whetstone",
+    "to": "high-barnet",
+    "validFrom": 1940,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1940
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "finchley-central-mill-hill-east",
+    "from": "finchley-central",
+    "to": "mill-hill-east",
+    "validFrom": 1941,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1941
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 16,
+        "y": -4.7
+      }
+    ]
+  },
+  {
+    "id": "golders-green-brent-cross",
+    "from": "golders-green",
+    "to": "brent-cross",
+    "validFrom": 1923,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1923
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "brent-cross-hendon-central",
+    "from": "brent-cross",
+    "to": "hendon-central",
+    "validFrom": 1923,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1923
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hendon-central-edgware-bypass",
+    "from": "hendon-central",
+    "to": "edgware",
+    "validFrom": 1923,
+    "validTo": 1923,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1923,
+        "validTo": 1923
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hendon-central-colindale",
+    "from": "hendon-central",
+    "to": "colindale",
+    "validFrom": 1924,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1924
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "colindale-burnt-oak",
+    "from": "colindale",
+    "to": "burnt-oak",
+    "validFrom": 1924,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1924
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "burnt-oak-edgware",
+    "from": "burnt-oak",
+    "to": "edgware",
+    "validFrom": 1924,
+    "lines": [
+      {
+        "line": "northern",
+        "validFrom": 1924
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "barking-upney",
+    "from": "barking",
+    "to": "upney",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": [{ "x": 35, "y": 7.5 }]
+  },
+  {
+    "id": "upney-becontree",
+    "from": "upney",
+    "to": "becontree",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "becontree-dagenham-heathway",
+    "from": "becontree",
+    "to": "dagenham-heathway",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "dagenham-heathway-dagenham-east",
+    "from": "dagenham-heathway",
+    "to": "dagenham-east",
+    "validFrom": 1932,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "dagenham-east-elm-park",
+    "from": "dagenham-east",
+    "to": "elm-park",
+    "validFrom": 1935,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1935
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "elm-park-hornchurch",
+    "from": "elm-park",
+    "to": "hornchurch",
+    "validFrom": 1935,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1935
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hornchurch-upminster-bridge",
+    "from": "hornchurch",
+    "to": "upminster-bridge",
+    "validFrom": 1934,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1934
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "upminster-bridge-upminster",
+    "from": "upminster-bridge",
+    "to": "upminster",
+    "validFrom": 1934,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1934
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "barking-hornchurch",
+    "from": "barking",
+    "to": "hornchurch",
+    "validFrom": 1902,
+    "validTo": 1905,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902,
+        "validTo": 1905
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hornchurch-upminster",
+    "from": "hornchurch",
+    "to": "upminster",
+    "validFrom": 1902,
+    "validTo": 1905,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1902,
+        "validTo": 1905
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "hornchurch-upminster-1932",
+    "from": "hornchurch",
+    "to": "upminster",
+    "validFrom": 1932,
+    "validTo": 1934,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932,
+        "validTo": 1934
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "stratford-maryland",
+    "from": "stratford",
+    "to": "maryland",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 30.3,
+        "y": 5
+      }
+    ]
+  },
+  {
+    "id": "maryland-forest-gate",
+    "from": "maryland",
+    "to": "forest-gate",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 32.3,
+        "y": 3
+      }
+    ]
+  },
+  {
+    "id": "forest-gate-manor-park",
+    "from": "forest-gate",
+    "to": "manor-park",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "manor-park-ilford",
+    "from": "manor-park",
+    "to": "ilford",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "ilford-seven-kings",
+    "from": "ilford",
+    "to": "seven-kings",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "seven-kings-goodmayes",
+    "from": "seven-kings",
+    "to": "goodmayes",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 35.5,
+        "y": 3
+      }
+    ]
+  },
+  {
+    "id": "goodmayes-chadwell-heath",
+    "from": "goodmayes",
+    "to": "chadwell-heath",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "chadwell-heath-romford",
+    "from": "chadwell-heath",
+    "to": "romford",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "romford-gidea-park",
+    "from": "romford",
+    "to": "gidea-park",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "gidea-park-harold-wood",
+    "from": "gidea-park",
+    "to": "harold-wood",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "harold-wood-brentwood",
+    "from": "harold-wood",
+    "to": "brentwood",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "brentwood-shenfield",
+    "from": "brentwood",
+    "to": "shenfield",
+    "validFrom": 2022,
+    "lines": [
+      {
+        "line": "elizabeth",
+        "validFrom": 2022
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "dagenham-east-hornchurch",
+    "from": "dagenham-east",
+    "to": "hornchurch",
+    "validFrom": 1932,
+    "validTo": 1935,
+    "lines": [
+      {
+        "line": "district",
+        "validFrom": 1932,
+        "validTo": 1935
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "leytonstone-snaresbrook",
+    "from": "leytonstone",
+    "to": "snaresbrook",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "snaresbrook-south-woodford",
+    "from": "snaresbrook",
+    "to": "south-woodford",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "south-woodford-woodford",
+    "from": "south-woodford",
+    "to": "woodford",
+    "validFrom": 1947,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1947
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "woodford-buckhurst-hill",
+    "from": "woodford",
+    "to": "buckhurst-hill",
+    "validFrom": 1948,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "waypoints": [
+      {
+        "x": 32,
+        "y": -3
+      }
+    ]
+  },
+  {
+    "id": "buckhurst-hill-loughton",
+    "from": "buckhurst-hill",
+    "to": "loughton",
+    "validFrom": 1948,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1948
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "loughton-debden",
+    "from": "loughton",
+    "to": "debden",
+    "validFrom": 1949,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1949
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "debden-theydon-bois",
+    "from": "debden",
+    "to": "theydon-bois",
+    "validFrom": 1949,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1949
+      }
+    ],
+    "waypoints": []
+  },
+  {
+    "id": "theydon-bois-epping",
+    "from": "theydon-bois",
+    "to": "epping",
+    "validFrom": 1949,
+    "lines": [
+      {
+        "line": "central",
+        "validFrom": 1949
+      }
+    ],
+    "waypoints": []
+  }
+]
