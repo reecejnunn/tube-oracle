@@ -1,6 +1,6 @@
 console.log("hello tube-oracle");
 
-import { readFileSync } from "node:fs";
+import { loadJson } from "./corpus/io.js";
 import {
   parseLineDetails,
   parseLines,
@@ -33,19 +33,11 @@ export function ask(_request: AskRequest): AskResponse {
   };
 }
 
-function loadJson(relativePath: string): unknown {
-  const text = readFileSync(new URL(relativePath, import.meta.url), "utf-8");
-  const parsed: unknown = JSON.parse(text); // pin to unknown to avoid TS inferring any type
-  return parsed;
-}
-
 export function loadCorpus() {
-  const stations = parseStations(loadJson("../data/stations-core.json"));
-  const stationDetails = parseStationDetails(
-    loadJson("../data/station-details.json"),
-  );
-  const lines = parseLines(loadJson("../data/lines-core.json"));
-  const lineDetails = parseLineDetails(loadJson("../data/line-details.json"));
+  const stations = parseStations(loadJson("stations-core.json"));
+  const stationDetails = parseStationDetails(loadJson("station-details.json"));
+  const lines = parseLines(loadJson("lines-core.json"));
+  const lineDetails = parseLineDetails(loadJson("line-details.json"));
 
   console.log(
     `Loaded corpus: ${stations.length} stations, ` +
